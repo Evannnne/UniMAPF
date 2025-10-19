@@ -1,5 +1,7 @@
 # UniMAPF
-A hybrid prioritized-planning and CBS-based multi-agent pathfinding solver implemented in Unity, designed for dynamic insertion of new agents at any point during runtime with variable speeds, radii, and priorities.
+Hybrid CBS + prioritized planning + independence detection for multi-agent pathfinding in Unity. Supports dynamic agent insertion, heterogeneous radii/speeds, and exact Segment-Based Collision (SBC).
+
+Full report: [Available on Google Drive](https://docs.google.com/document/d/1GMLAdSkXirHB1kXvXOGMI_5niMdGOtXW5iKLU51X4oU/edit?usp=sharing)
 
 ![multi-agent-gif](https://github.com/user-attachments/assets/8c5d871d-16cc-4d48-a711-f89f2bcf923c)
 
