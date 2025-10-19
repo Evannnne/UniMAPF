@@ -4,7 +4,7 @@ A hybrid prioritized-planning and CBS-based multi-agent pathfinding solver imple
 ![multi-agent-gif](https://github.com/user-attachments/assets/8c5d871d-16cc-4d48-a711-f89f2bcf923c)
 
 ## Technical Overview
-This project integrates state-of-the-art multi-agent pathfinding (MAPF) techniques (Conflict-Based Search (CBS), Independence Detection, and Prioritized Planning) into a unified, asynchronous scheduling framework. Agents issue path requests to a scheduler, which get computed asynchronously on a secondary thread and passed to the agent upon completion.
+This project integrates state-of-the-art multi-agent pathfinding (MAPF) techniques (Conflict-Based Search (CBS), Independence Detection, and Prioritized Planning) into a unified, asynchronous scheduling framework. Agents issue path requests to a scheduler, which get computed in batches on a secondary thread and passed to the agent upon completion.
 
 When path requests are made, they are placed into a priority queue. At each `tickInterval`, the scheduler processes pending requests, selecting all agents of the highest current priority. These requests are solved together using a CBS instance, where each agent’s sub-planner (A*) is constrained to avoid paths belonging to higher-priority agents whose routes have already been finalized.
 
