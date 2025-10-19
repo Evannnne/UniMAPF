@@ -65,7 +65,7 @@ SolveGroup(requests):
     else:
         invalidate all requesting agents
 
-  pathfindingInProgress ← false
+    pathfindingInProgress ← false
 
 # Agents automatically re-request paths on invalidation; these requests get picked up on next tick.
 ```
@@ -74,21 +74,21 @@ The system successfully demonstrated real-time integration of Conflict-Based Sea
 
 However, experiments revealed that while small and moderately constrained instances perform well, computation time increases exponentially with problem density due to combinatorial explosion in the state space (multiple entries for the same node at different times). Key observations include:
 - Precomputed heuristics cause pathological slowdown in constrained settings, as they bias the search toward spatially optimal but temporally infeasible regions.
-- Weighted heuristics (e.g., w=2) yield major speedups (≈2×–5×) with no cost penalty.
-- Penalizing re-expansion of repeated states reduces runtime by ~50% on average with negligible cost increases.
+- Weighted heuristics (e.g., w=2) yield major speedups (≈2×–5×) with negligible cost penalty.
+- Penalizing re-expansion of repeated states reduces runtime by ~50% with no cost penalty on average.
 - Even with these optimizations, highly constrained cases remain intractable beyond 5–7 agents under 100 ms per request.
 
-Overall, the algorithm achieved roughly 50% of the desired performance target and remained correct and stable in all test cases. The dominant limiting factor is excessive low-level node expansion caused by redundant wait-state exploration.
+Overall, the algorithm achieved roughly 50% of the desired performance target and remained correct and stable in all test cases. The dominant limiting factor is excessive low-level node expansion caused by redundant wait-state exploration, which leads to exponential growth in time-augmented state space under dense constraints.
 
 ## Limitations / Future Work
 In dense MAPF, compute time explodes. The low-level best-first search expands many wait states at the same (position, increasing time) when constraints block progress; standard goal-distance heuristics bias toward “stay near goal,” which starves exploratory detours. CBS amplifies this by re-invoking low-level search under growing constraint sets, multiplying redundant wait expansions.
 
 Future work:
 - Safe-Interval Path Planning (SIPP): Replace per-tick with safe intervals to compress time; this was attempted, but the geometric formulation made it difficult to approach.
-- - CBS Heuristics: Using heuristics such as a Weighted Dependency Graph could greatly reduce the multiplicative performacne drops from repeated CBS expansions.
+- CBS Heuristics: Implementing high-level heuristics such as the Weighted Dependency Graph (WDG) could substantially reduce the multiplicative performance loss from repeated CBS expansions.
 - Sub-Path/Windowed Planning: Do multi-agent planning over small windows only, and extend that window only if conflicts persist
 - Minimal Decision Diagrams: Build MDDs for agents for the low-level search under CBS
-- Symmetry Breaking: Better penalizing back-and-forth moves and clycic waits
+- Symmetry Breaking: Better penalizing back-and-forth moves and cyclic waits
 - Parallelization: Solve low-level searches concurrently
 
 ## License
