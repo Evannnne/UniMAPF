@@ -155,7 +155,7 @@ MonoBehaviour:
   - {fileID: 1563075468}
   - {fileID: 966822897}
   position: {x: -56, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2721206
 Transform:
   m_ObjectHideFlags: 0
@@ -205,7 +205,7 @@ MonoBehaviour:
   - {fileID: 270025498}
   - {fileID: 569547516}
   position: {x: -28, y: -1, z: 116}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &10236725
 Transform:
   m_ObjectHideFlags: 0
@@ -254,7 +254,7 @@ MonoBehaviour:
   - {fileID: 916179969}
   - {fileID: 316782097}
   position: {x: 12, y: -1, z: 68}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &15026494
 Transform:
   m_ObjectHideFlags: 0
@@ -303,7 +303,7 @@ MonoBehaviour:
   - {fileID: 957475621}
   - {fileID: 1526831333}
   position: {x: 24, y: -1, z: 68}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &22577421
 Transform:
   m_ObjectHideFlags: 0
@@ -352,7 +352,7 @@ MonoBehaviour:
   - {fileID: 380590076}
   - {fileID: 1971352260}
   position: {x: 8, y: -1, z: 24}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &29828838
 Transform:
   m_ObjectHideFlags: 0
@@ -367,6 +367,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 132211630}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &33003560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 33003561}
+  m_Layer: 0
+  m_Name: Goal (0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &33003561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33003560}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20, y: -1, z: 0.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 233344056}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &46196302
 GameObject:
@@ -401,7 +432,7 @@ MonoBehaviour:
   - {fileID: 2048320351}
   - {fileID: 1878785745}
   position: {x: 48, y: -1, z: 64}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &46196304
 Transform:
   m_ObjectHideFlags: 0
@@ -450,7 +481,7 @@ MonoBehaviour:
   - {fileID: 1782745757}
   - {fileID: 1616527722}
   position: {x: -32, y: -1, z: 72}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &50546836
 Transform:
   m_ObjectHideFlags: 0
@@ -504,7 +535,7 @@ MonoBehaviour:
   - {fileID: 1595518066}
   - {fileID: 1629924405}
   position: {x: -36, y: -1, z: 88}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &52889332
 Transform:
   m_ObjectHideFlags: 0
@@ -553,7 +584,7 @@ MonoBehaviour:
   - {fileID: 1178737919}
   - {fileID: 1608510137}
   position: {x: 16, y: -1, z: 120}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &56149262
 Transform:
   m_ObjectHideFlags: 0
@@ -604,7 +635,7 @@ MonoBehaviour:
   - {fileID: 392211312}
   - {fileID: 180997099}
   position: {x: -8, y: -1, z: 48}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &57292410
 Transform:
   m_ObjectHideFlags: 0
@@ -653,7 +684,7 @@ MonoBehaviour:
   - {fileID: 71556837}
   - {fileID: 1258842873}
   position: {x: 28, y: -1, z: 80}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &61213198
 Transform:
   m_ObjectHideFlags: 0
@@ -703,7 +734,7 @@ MonoBehaviour:
   - {fileID: 902076110}
   - {fileID: 1989376188}
   position: {x: 5, y: -1, z: 53}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &65904408
 Transform:
   m_ObjectHideFlags: 0
@@ -783,7 +814,7 @@ MonoBehaviour:
   - {fileID: 2060234214}
   - {fileID: 373612257}
   position: {x: -8, y: -1, z: 68}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &70334405
 Transform:
   m_ObjectHideFlags: 0
@@ -832,7 +863,7 @@ MonoBehaviour:
   - {fileID: 1688004168}
   - {fileID: 61213197}
   position: {x: 28, y: -1, z: 84}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &71556838
 Transform:
   m_ObjectHideFlags: 0
@@ -883,7 +914,7 @@ MonoBehaviour:
   - {fileID: 511473531}
   - {fileID: 846676885}
   position: {x: -8, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &80337454
 Transform:
   m_ObjectHideFlags: 0
@@ -936,7 +967,7 @@ MonoBehaviour:
   - {fileID: 1277555144}
   - {fileID: 1206486569}
   position: {x: 4, y: -1, z: 112}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &83424483
 Transform:
   m_ObjectHideFlags: 0
@@ -988,7 +1019,7 @@ MonoBehaviour:
   - {fileID: 277303053}
   - {fileID: 998716409}
   position: {x: -4, y: -1, z: 100}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &85031157
 Transform:
   m_ObjectHideFlags: 0
@@ -1039,7 +1070,7 @@ MonoBehaviour:
   - {fileID: 1330364655}
   - {fileID: 1222836911}
   position: {x: -56, y: -1, z: 60}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &96960560
 Transform:
   m_ObjectHideFlags: 0
@@ -1089,7 +1120,7 @@ MonoBehaviour:
   - {fileID: 1409622469}
   - {fileID: 1408260528}
   position: {x: -16, y: -1, z: 32}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &99171833
 Transform:
   m_ObjectHideFlags: 0
@@ -1138,7 +1169,7 @@ MonoBehaviour:
   - {fileID: 1161149181}
   - {fileID: 1226648047}
   position: {x: -32, y: -1, z: 48}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &101111534
 Transform:
   m_ObjectHideFlags: 0
@@ -1191,7 +1222,7 @@ MonoBehaviour:
   - {fileID: 1979462243}
   - {fileID: 353899966}
   position: {x: -12, y: -1, z: 112}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &101876498
 Transform:
   m_ObjectHideFlags: 0
@@ -1244,7 +1275,7 @@ MonoBehaviour:
   - {fileID: 1887623782}
   - {fileID: 1164118221}
   position: {x: 36, y: -1, z: 120}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &103180700
 Transform:
   m_ObjectHideFlags: 0
@@ -1293,7 +1324,7 @@ MonoBehaviour:
   - {fileID: 1237722293}
   - {fileID: 561940358}
   position: {x: 20, y: -1, z: 20}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &106837701
 Transform:
   m_ObjectHideFlags: 0
@@ -1342,7 +1373,7 @@ MonoBehaviour:
   - {fileID: 1404264436}
   - {fileID: 1899723464}
   position: {x: 16, y: -1, z: 32}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &111452687
 Transform:
   m_ObjectHideFlags: 0
@@ -1391,7 +1422,7 @@ MonoBehaviour:
   - {fileID: 667237682}
   - {fileID: 333657827}
   position: {x: 53.75, y: -1, z: 53.75}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &124981494
 Transform:
   m_ObjectHideFlags: 0
@@ -1416,10 +1447,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 132211630}
-  - component: {fileID: 132211629}
   - component: {fileID: 132211628}
   m_Layer: 0
-  m_Name: NavNodeSystem_Spider
+  m_Name: NavNodeSystem
   m_TagString: Nav_Spider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1440,23 +1470,6 @@ MonoBehaviour:
   startNode: {fileID: 1178737919}
   endNode: {fileID: 737804187}
   useFeature_precomputedTable: 1
---- !u!114 &132211629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132211627}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da8713665545a2a4f8c97846e99dfc1b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agentRadius: 0.25
-  connectionCheckRadius: 0.125
-  agentHeight: 1
-  groundMargin: 0.5
-  allowedSubdivisions: 4
 --- !u!4 &132211630
 Transform:
   m_ObjectHideFlags: 0
@@ -1927,7 +1940,7 @@ MonoBehaviour:
   - {fileID: 940900814}
   - {fileID: 1664017640}
   position: {x: 44, y: -1, z: 80}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &137448271
 Transform:
   m_ObjectHideFlags: 0
@@ -1978,7 +1991,7 @@ MonoBehaviour:
   - {fileID: 653058720}
   - {fileID: 1585000432}
   position: {x: -16, y: -1, z: 20}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &146270395
 Transform:
   m_ObjectHideFlags: 0
@@ -2032,7 +2045,7 @@ MonoBehaviour:
   - {fileID: 1609985727}
   - {fileID: 1757465278}
   position: {x: -4, y: -1, z: 88}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &147251699
 Transform:
   m_ObjectHideFlags: 0
@@ -2081,7 +2094,7 @@ MonoBehaviour:
   - {fileID: 1899723464}
   - {fileID: 561940358}
   position: {x: 16, y: -1, z: 24}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &153099477
 Transform:
   m_ObjectHideFlags: 0
@@ -2130,7 +2143,7 @@ MonoBehaviour:
   - {fileID: 799766776}
   - {fileID: 1027119389}
   position: {x: 0, y: -1, z: 124}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &160808451
 Transform:
   m_ObjectHideFlags: 0
@@ -2180,7 +2193,7 @@ MonoBehaviour:
   - {fileID: 834895602}
   - {fileID: 1739626097}
   position: {x: 8, y: -1, z: 120}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &163228717
 Transform:
   m_ObjectHideFlags: 0
@@ -2230,7 +2243,7 @@ MonoBehaviour:
   - {fileID: 1290033783}
   - {fileID: 1771646803}
   position: {x: 28, y: -1, z: 60}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &163875956
 Transform:
   m_ObjectHideFlags: 0
@@ -2280,7 +2293,7 @@ MonoBehaviour:
   - {fileID: 913801764}
   - {fileID: 862474814}
   position: {x: 8, y: -1, z: 76}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &166280584
 Transform:
   m_ObjectHideFlags: 0
@@ -2329,7 +2342,7 @@ MonoBehaviour:
   - {fileID: 926160824}
   - {fileID: 1864374481}
   position: {x: -24, y: -1, z: 92}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &167118791
 Transform:
   m_ObjectHideFlags: 0
@@ -2382,7 +2395,7 @@ MonoBehaviour:
   - {fileID: 501334773}
   - {fileID: 1330348843}
   position: {x: -4, y: -1, z: 112}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &177046398
 Transform:
   m_ObjectHideFlags: 0
@@ -2433,7 +2446,7 @@ MonoBehaviour:
   - {fileID: 272744112}
   - {fileID: 614751995}
   position: {x: -11, y: -1, z: 45}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &180997100
 Transform:
   m_ObjectHideFlags: 0
@@ -2448,6 +2461,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 132211630}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &190670770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 190670771}
+  m_Layer: 0
+  m_Name: Goal (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &190670771
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190670770}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8, y: -1, z: -11.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 233344056}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &200129089
 GameObject:
@@ -2485,7 +2529,7 @@ MonoBehaviour:
   - {fileID: 1763707558}
   - {fileID: 735125227}
   position: {x: -48, y: -1, z: 72}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &200129091
 Transform:
   m_ObjectHideFlags: 0
@@ -2534,7 +2578,7 @@ MonoBehaviour:
   - {fileID: 1669040049}
   - {fileID: 997209438}
   position: {x: -32, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &200352635
 Transform:
   m_ObjectHideFlags: 0
@@ -2584,7 +2628,7 @@ MonoBehaviour:
   - {fileID: 2102621505}
   - {fileID: 511473531}
   position: {x: -4, y: -1, z: 32}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &204100292
 Transform:
   m_ObjectHideFlags: 0
@@ -2633,7 +2677,7 @@ MonoBehaviour:
   - {fileID: 322974952}
   - {fileID: 1645133100}
   position: {x: 0, y: -1, z: 60}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &210649515
 Transform:
   m_ObjectHideFlags: 0
@@ -2687,7 +2731,7 @@ MonoBehaviour:
   - {fileID: 1014277368}
   - {fileID: 1453773628}
   position: {x: 32, y: -1, z: 104}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &219834564
 Transform:
   m_ObjectHideFlags: 0
@@ -2738,7 +2782,7 @@ MonoBehaviour:
   - {fileID: 1910629902}
   - {fileID: 1317259742}
   position: {x: 24, y: -1, z: 108}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &228786541
 Transform:
   m_ObjectHideFlags: 0
@@ -2787,7 +2831,7 @@ MonoBehaviour:
   - {fileID: 953708553}
   - {fileID: 550601882}
   position: {x: 32, y: -1, z: 40}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &232771818
 Transform:
   m_ObjectHideFlags: 0
@@ -2802,6 +2846,86 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 132211630}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &233344054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 233344056}
+  - component: {fileID: 233344055}
+  m_Layer: 0
+  m_Name: Random Tester
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &233344055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233344054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a526c2f327c2ea04bbf22e192cfe1797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseAgent: {fileID: 242092877}
+  agents:
+  - {fileID: 1862913464}
+  - {fileID: 776863001}
+  - {fileID: 838593895}
+  - {fileID: 885141218}
+  - {fileID: 1637540721}
+  - {fileID: 702371429}
+  - {fileID: 1840730655}
+  agentColors:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0.09142852, g: 1, b: 0, a: 1}
+  - {r: 0, g: 0.37446833, b: 1, a: 1}
+  - {r: 1, g: 0.9128059, b: 0, a: 1}
+  - {r: 1, g: 0, b: 0.95709896, a: 1}
+  - {r: 1, g: 0.4854529, b: 0, a: 1}
+  - {r: 0.4339623, g: 0.23177573, b: 0.14533643, a: 1}
+  - {r: 0.465559, g: 0, b: 1, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  acceptableRadius: 20
+  agentCount: 3
+  runSequential: 0
+--- !u!4 &233344056
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233344054}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 67.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1862913463}
+  - {fileID: 33003561}
+  - {fileID: 776863000}
+  - {fileID: 190670771}
+  - {fileID: 838593894}
+  - {fileID: 1626996116}
+  - {fileID: 885141217}
+  - {fileID: 1142931561}
+  - {fileID: 1637540720}
+  - {fileID: 1376681027}
+  - {fileID: 702371428}
+  - {fileID: 847625492}
+  - {fileID: 1840730654}
+  - {fileID: 1266290975}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &236397114
 GameObject:
@@ -2836,7 +2960,7 @@ MonoBehaviour:
   - {fileID: 762974536}
   - {fileID: 1290033783}
   position: {x: 36, y: -1, z: 56}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &236397116
 Transform:
   m_ObjectHideFlags: 0
@@ -2889,7 +3013,7 @@ MonoBehaviour:
   - {fileID: 501334773}
   - {fileID: 1883924122}
   position: {x: 0, y: -1, z: 104}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &237529816
 Transform:
   m_ObjectHideFlags: 0
@@ -2904,6 +3028,57 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 132211630}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &242092877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 242092879}
+  - component: {fileID: 242092878}
+  m_Layer: 0
+  m_Name: SimpleAgent_Template
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &242092878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242092877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec56661111efa843a369b4a51df161a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentColor: {r: 1, g: 0.85314363, b: 0, a: 1}
+  agentDefinition:
+    radius: 1
+    speed: 4
+    priority: 0
+  targetPositionObject: {fileID: 0}
+  m_animationTime: -1
+--- !u!4 &242092879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242092877}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 24, y: 0, z: 124}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &246028318
 GameObject:
@@ -2943,7 +3118,7 @@ MonoBehaviour:
   - {fileID: 1595518066}
   - {fileID: 1629924405}
   position: {x: -36, y: -1, z: 92}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &246028320
 Transform:
   m_ObjectHideFlags: 0
@@ -2995,7 +3170,7 @@ MonoBehaviour:
   - {fileID: 1014277368}
   - {fileID: 1453773628}
   position: {x: 33.5, y: -1, z: 101.5}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &247870317
 Transform:
   m_ObjectHideFlags: 0
@@ -3047,7 +3222,7 @@ MonoBehaviour:
   - {fileID: 1317259742}
   - {fileID: 2101364214}
   position: {x: 24, y: -1, z: 104}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &250706475
 Transform:
   m_ObjectHideFlags: 0
@@ -3097,7 +3272,7 @@ MonoBehaviour:
   - {fileID: 1866569288}
   - {fileID: 821233954}
   position: {x: -40, y: -1, z: 80}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &262489584
 Transform:
   m_ObjectHideFlags: 0
@@ -3146,7 +3321,7 @@ MonoBehaviour:
   - {fileID: 313696732}
   - {fileID: 2076692711}
   position: {x: 44, y: -1, z: 24}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &263472379
 Transform:
   m_ObjectHideFlags: 0
@@ -3197,7 +3372,7 @@ MonoBehaviour:
   - {fileID: 1773669481}
   - {fileID: 984380873}
   position: {x: 8, y: -1, z: 32}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &265714920
 Transform:
   m_ObjectHideFlags: 0
@@ -3299,7 +3474,7 @@ MonoBehaviour:
   - {fileID: 1897409083}
   - {fileID: 10236724}
   position: {x: -24, y: -1, z: 120}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &270025499
 Transform:
   m_ObjectHideFlags: 0
@@ -3349,7 +3524,7 @@ MonoBehaviour:
   - {fileID: 392211312}
   - {fileID: 180997099}
   position: {x: -7, y: -1, z: 45}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &272744113
 Transform:
   m_ObjectHideFlags: 0
@@ -3399,7 +3574,7 @@ MonoBehaviour:
   - {fileID: 801422633}
   - {fileID: 998716409}
   position: {x: -8, y: -1, z: 100}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &277303054
 Transform:
   m_ObjectHideFlags: 0
@@ -3449,7 +3624,7 @@ MonoBehaviour:
   - {fileID: 2018329840}
   - {fileID: 1530820865}
   position: {x: 28, y: -1, z: 24}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &284622381
 Transform:
   m_ObjectHideFlags: 0
@@ -3500,7 +3675,7 @@ MonoBehaviour:
   - {fileID: 598622703}
   - {fileID: 1315451081}
   position: {x: 52, y: -1, z: 40}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &300896490
 Transform:
   m_ObjectHideFlags: 0
@@ -3549,7 +3724,7 @@ MonoBehaviour:
   - {fileID: 1368694892}
   - {fileID: 650116140}
   position: {x: -32, y: -1, z: 80}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &306735757
 Transform:
   m_ObjectHideFlags: 0
@@ -3599,7 +3774,7 @@ MonoBehaviour:
   - {fileID: 1422934614}
   - {fileID: 1307342890}
   position: {x: 0, y: -1, z: 16}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &309712135
 Transform:
   m_ObjectHideFlags: 0
@@ -3648,7 +3823,7 @@ MonoBehaviour:
   - {fileID: 500378842}
   - {fileID: 263472378}
   position: {x: 48, y: -1, z: 24}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &313696733
 Transform:
   m_ObjectHideFlags: 0
@@ -3701,7 +3876,7 @@ MonoBehaviour:
   - {fileID: 1358609421}
   - {fileID: 1349818700}
   position: {x: 8, y: -1, z: 68}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &316782098
 Transform:
   m_ObjectHideFlags: 0
@@ -3752,7 +3927,7 @@ MonoBehaviour:
   - {fileID: 1377679256}
   - {fileID: 210649514}
   position: {x: 4, y: -1, z: 60}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &322974953
 Transform:
   m_ObjectHideFlags: 0
@@ -3805,7 +3980,7 @@ MonoBehaviour:
   - {fileID: 2129103496}
   - {fileID: 1430636936}
   position: {x: -44, y: -1, z: 60}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &325083098
 Transform:
   m_ObjectHideFlags: 0
@@ -3856,7 +4031,7 @@ MonoBehaviour:
   - {fileID: 1895327144}
   - {fileID: 2096589969}
   position: {x: -52, y: -1, z: 76}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &325593637
 Transform:
   m_ObjectHideFlags: 0
@@ -3906,7 +4081,7 @@ MonoBehaviour:
   - {fileID: 1201189766}
   - {fileID: 2129103496}
   position: {x: -44, y: -1, z: 64}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &331034552
 Transform:
   m_ObjectHideFlags: 0
@@ -3957,7 +4132,7 @@ MonoBehaviour:
   - {fileID: 265714919}
   - {fileID: 482915057}
   position: {x: 8, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &333374907
 Transform:
   m_ObjectHideFlags: 0
@@ -4006,7 +4181,7 @@ MonoBehaviour:
   - {fileID: 667237682}
   - {fileID: 124981493}
   position: {x: 56, y: -1, z: 52}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &333657828
 Transform:
   m_ObjectHideFlags: 0
@@ -4059,7 +4234,7 @@ MonoBehaviour:
   - {fileID: 1240342960}
   - {fileID: 1007331537}
   position: {x: -36, y: -1, z: 60}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &337210252
 Transform:
   m_ObjectHideFlags: 0
@@ -4140,7 +4315,7 @@ MonoBehaviour:
   - {fileID: 103180699}
   - {fileID: 877112277}
   position: {x: 36, y: -1, z: 124}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &348459334
 Transform:
   m_ObjectHideFlags: 0
@@ -4190,7 +4365,7 @@ MonoBehaviour:
   - {fileID: 1866099519}
   - {fileID: 96960559}
   position: {x: -56, y: -1, z: 64}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &348688851
 Transform:
   m_ObjectHideFlags: 0
@@ -4241,7 +4416,7 @@ MonoBehaviour:
   - {fileID: 1007331537}
   - {fileID: 1134773889}
   position: {x: -36, y: -1, z: 52}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &348873707
 Transform:
   m_ObjectHideFlags: 0
@@ -4292,7 +4467,7 @@ MonoBehaviour:
   - {fileID: 625956751}
   - {fileID: 1253360568}
   position: {x: -16, y: -1, z: 108}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &353899967
 Transform:
   m_ObjectHideFlags: 0
@@ -4344,7 +4519,7 @@ MonoBehaviour:
   - {fileID: 750843140}
   - {fileID: 1593796882}
   position: {x: -28, y: -1, z: 88}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &357917987
 Transform:
   m_ObjectHideFlags: 0
@@ -4396,7 +4571,7 @@ MonoBehaviour:
   - {fileID: 219834563}
   - {fileID: 247870316}
   position: {x: 36, y: -1, z: 104}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &361176249
 Transform:
   m_ObjectHideFlags: 0
@@ -4446,7 +4621,7 @@ MonoBehaviour:
   - {fileID: 1645133100}
   - {fileID: 2136928702}
   position: {x: -8, y: -1, z: 64}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &373612258
 Transform:
   m_ObjectHideFlags: 0
@@ -4496,7 +4671,7 @@ MonoBehaviour:
   - {fileID: 927260967}
   - {fileID: 2022704618}
   position: {x: -48, y: -1, z: 88}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &378170738
 Transform:
   m_ObjectHideFlags: 0
@@ -4545,7 +4720,7 @@ MonoBehaviour:
   - {fileID: 29828837}
   - {fileID: 921442756}
   position: {x: 8, y: -1, z: 20}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &380590077
 Transform:
   m_ObjectHideFlags: 0
@@ -4594,7 +4769,7 @@ MonoBehaviour:
   - {fileID: 653058720}
   - {fileID: 1768515962}
   position: {x: -20, y: -1, z: 16}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &381102369
 Transform:
   m_ObjectHideFlags: 0
@@ -4646,7 +4821,7 @@ MonoBehaviour:
   - {fileID: 1923188048}
   - {fileID: 1811875707}
   position: {x: -28, y: -1, z: 64}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &382309721
 Transform:
   m_ObjectHideFlags: 0
@@ -4696,7 +4871,7 @@ MonoBehaviour:
   - {fileID: 272744112}
   - {fileID: 180997099}
   position: {x: -11, y: -1, z: 49}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &392211313
 Transform:
   m_ObjectHideFlags: 0
@@ -4746,7 +4921,7 @@ MonoBehaviour:
   - {fileID: 532616685}
   - {fileID: 1539960965}
   position: {x: -56, y: -1, z: 52}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &394386030
 Transform:
   m_ObjectHideFlags: 0
@@ -4799,7 +4974,7 @@ MonoBehaviour:
   - {fileID: 348688850}
   - {fileID: 96960559}
   position: {x: -52, y: -1, z: 64}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &395244736
 Transform:
   m_ObjectHideFlags: 0
@@ -4850,7 +5025,7 @@ MonoBehaviour:
   - {fileID: 1322299772}
   - {fileID: 739298183}
   position: {x: -28, y: -1, z: 56}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &396259920
 Transform:
   m_ObjectHideFlags: 0
@@ -4904,7 +5079,7 @@ MonoBehaviour:
   - {fileID: 1931110094}
   - {fileID: 378170737}
   position: {x: -44, y: -1, z: 92}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &399036702
 Transform:
   m_ObjectHideFlags: 0
@@ -4955,7 +5130,7 @@ MonoBehaviour:
   - {fileID: 1850384153}
   - {fileID: 1966191588}
   position: {x: 56, y: -1, z: 60}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &399463204
 Transform:
   m_ObjectHideFlags: 0
@@ -5005,7 +5180,7 @@ MonoBehaviour:
   - {fileID: 1063366428}
   - {fileID: 300896489}
   position: {x: 56, y: -1, z: 44}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &421978313
 Transform:
   m_ObjectHideFlags: 0
@@ -5056,7 +5231,7 @@ MonoBehaviour:
   - {fileID: 1887623782}
   - {fileID: 864635803}
   position: {x: 28, y: -1, z: 120}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &427619886
 Transform:
   m_ObjectHideFlags: 0
@@ -5105,7 +5280,7 @@ MonoBehaviour:
   - {fileID: 1289196984}
   - {fileID: 1978799512}
   position: {x: -32, y: -1, z: 108}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &431477871
 Transform:
   m_ObjectHideFlags: 0
@@ -5156,7 +5331,7 @@ MonoBehaviour:
   - {fileID: 1751400317}
   - {fileID: 843225945}
   position: {x: -8, y: -1, z: 116}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &434483074
 Transform:
   m_ObjectHideFlags: 0
@@ -5204,7 +5379,7 @@ MonoBehaviour:
   connections:
   - {fileID: 1042049091}
   position: {x: -43, y: -1, z: 37}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &436736165
 Transform:
   m_ObjectHideFlags: 0
@@ -5254,7 +5429,7 @@ MonoBehaviour:
   - {fileID: 761156489}
   - {fileID: 1688854597}
   position: {x: 5, y: -1, z: 89}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &437007850
 Transform:
   m_ObjectHideFlags: 0
@@ -5304,7 +5479,7 @@ MonoBehaviour:
   - {fileID: 733208468}
   - {fileID: 265714919}
   position: {x: 12, y: -1, z: 32}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &447276520
 Transform:
   m_ObjectHideFlags: 0
@@ -5354,7 +5529,7 @@ MonoBehaviour:
   - {fileID: 1403835337}
   - {fileID: 1891349273}
   position: {x: 28, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &447304331
 Transform:
   m_ObjectHideFlags: 0
@@ -5402,7 +5577,7 @@ MonoBehaviour:
   connections:
   - {fileID: 2076606065}
   position: {x: -20, y: -1, z: 40}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &448912363
 Transform:
   m_ObjectHideFlags: 0
@@ -5452,7 +5627,7 @@ MonoBehaviour:
   - {fileID: 1045777296}
   - {fileID: 612072276}
   position: {x: -32, y: -1, z: 28}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &453126534
 Transform:
   m_ObjectHideFlags: 0
@@ -5501,7 +5676,7 @@ MonoBehaviour:
   - {fileID: 2096589969}
   - {fileID: 735125227}
   position: {x: -55, y: -1, z: 69}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &463664190
 Transform:
   m_ObjectHideFlags: 0
@@ -5553,7 +5728,7 @@ MonoBehaviour:
   - {fileID: 337210251}
   - {fileID: 1240342960}
   position: {x: -40, y: -1, z: 64}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &465093190
 Transform:
   m_ObjectHideFlags: 0
@@ -5601,7 +5776,7 @@ MonoBehaviour:
   connections:
   - {fileID: 598622703}
   position: {x: 56, y: -1, z: 32}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &468100210
 Transform:
   m_ObjectHideFlags: 0
@@ -5650,7 +5825,7 @@ MonoBehaviour:
   - {fileID: 2088350649}
   - {fileID: 647196239}
   position: {x: -28, y: -1, z: 20}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &477330718
 Transform:
   m_ObjectHideFlags: 0
@@ -5701,7 +5876,7 @@ MonoBehaviour:
   - {fileID: 1329449749}
   - {fileID: 434483073}
   position: {x: -4, y: -1, z: 120}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &477921478
 Transform:
   m_ObjectHideFlags: 0
@@ -5749,7 +5924,7 @@ MonoBehaviour:
   connections:
   - {fileID: 1943595672}
   position: {x: -56, y: -1, z: 96}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &481650979
 Transform:
   m_ObjectHideFlags: 0
@@ -5801,7 +5976,7 @@ MonoBehaviour:
   - {fileID: 1855141877}
   - {fileID: 465093189}
   position: {x: -40, y: -1, z: 68}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &482138527
 Transform:
   m_ObjectHideFlags: 0
@@ -5850,7 +6025,7 @@ MonoBehaviour:
   - {fileID: 1005925758}
   - {fileID: 2038262385}
   position: {x: -48, y: -1, z: 108}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &482777812
 Transform:
   m_ObjectHideFlags: 0
@@ -5901,7 +6076,7 @@ MonoBehaviour:
   - {fileID: 984380873}
   - {fileID: 1167300245}
   position: {x: 4, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &482915058
 Transform:
   m_ObjectHideFlags: 0
@@ -5951,7 +6126,7 @@ MonoBehaviour:
   - {fileID: 913801764}
   - {fileID: 862474814}
   position: {x: 1, y: -1, z: 73}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &483405941
 Transform:
   m_ObjectHideFlags: 0
@@ -6001,7 +6176,7 @@ MonoBehaviour:
   - {fileID: 1307308894}
   - {fileID: 103180699}
   position: {x: 40, y: -1, z: 120}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &492109875
 Transform:
   m_ObjectHideFlags: 0
@@ -6050,7 +6225,7 @@ MonoBehaviour:
   - {fileID: 1984977644}
   - {fileID: 313696732}
   position: {x: 48, y: -1, z: 28}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &500378843
 Transform:
   m_ObjectHideFlags: 0
@@ -6098,7 +6273,7 @@ MonoBehaviour:
   connections:
   - {fileID: 1436383123}
   position: {x: -16, y: -1, z: 40}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &501264290
 Transform:
   m_ObjectHideFlags: 0
@@ -6150,7 +6325,7 @@ MonoBehaviour:
   - {fileID: 1883924122}
   - {fileID: 917161422}
   position: {x: -4, y: -1, z: 108}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &501334774
 Transform:
   m_ObjectHideFlags: 0
@@ -6201,7 +6376,7 @@ MonoBehaviour:
   - {fileID: 2040498576}
   - {fileID: 1371463949}
   position: {x: -8, y: -1, z: 32}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &511473532
 Transform:
   m_ObjectHideFlags: 0
@@ -6249,7 +6424,7 @@ MonoBehaviour:
   connections:
   - {fileID: 2022704618}
   position: {x: -56, y: -1, z: 88}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &516524997
 Transform:
   m_ObjectHideFlags: 0
@@ -6298,7 +6473,7 @@ MonoBehaviour:
   - {fileID: 1579112807}
   - {fileID: 146270394}
   position: {x: -12, y: -1, z: 20}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &531019801
 Transform:
   m_ObjectHideFlags: 0
@@ -6348,7 +6523,7 @@ MonoBehaviour:
   - {fileID: 394386029}
   - {fileID: 1539960965}
   position: {x: -52, y: -1, z: 48}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &532616686
 Transform:
   m_ObjectHideFlags: 0
@@ -6397,7 +6572,7 @@ MonoBehaviour:
   - {fileID: 1595108457}
   - {fileID: 1231113356}
   position: {x: 0, y: -1, z: 28}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &536182042
 Transform:
   m_ObjectHideFlags: 0
@@ -6446,7 +6621,7 @@ MonoBehaviour:
   - {fileID: 703798052}
   - {fileID: 482915057}
   position: {x: 4, y: -1, z: 40}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &541444948
 Transform:
   m_ObjectHideFlags: 0
@@ -6495,7 +6670,7 @@ MonoBehaviour:
   - {fileID: 1678148490}
   - {fileID: 646007559}
   position: {x: -24, y: -1, z: 48}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &542413434
 Transform:
   m_ObjectHideFlags: 0
@@ -6547,7 +6722,7 @@ MonoBehaviour:
   - {fileID: 686347161}
   - {fileID: 200129090}
   position: {x: -44, y: -1, z: 76}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &548307397
 Transform:
   m_ObjectHideFlags: 0
@@ -6596,7 +6771,7 @@ MonoBehaviour:
   - {fileID: 232771817}
   - {fileID: 447304330}
   position: {x: 32, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &550601883
 Transform:
   m_ObjectHideFlags: 0
@@ -6645,7 +6820,7 @@ MonoBehaviour:
   - {fileID: 804087756}
   - {fileID: 1167300245}
   position: {x: 0, y: -1, z: 40}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &553930932
 Transform:
   m_ObjectHideFlags: 0
@@ -6696,7 +6871,7 @@ MonoBehaviour:
   - {fileID: 394386029}
   - {fileID: 1539960965}
   position: {x: -52, y: -1, z: 52}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &558837983
 Transform:
   m_ObjectHideFlags: 0
@@ -6745,7 +6920,7 @@ MonoBehaviour:
   - {fileID: 1931110094}
   - {fileID: 1939046963}
   position: {x: -52, y: -1, z: 92}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &559319058
 Transform:
   m_ObjectHideFlags: 0
@@ -6795,7 +6970,7 @@ MonoBehaviour:
   - {fileID: 106837700}
   - {fileID: 921442756}
   position: {x: 16, y: -1, z: 20}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &561940359
 Transform:
   m_ObjectHideFlags: 0
@@ -6845,7 +7020,7 @@ MonoBehaviour:
   - {fileID: 1897409083}
   - {fileID: 10236724}
   position: {x: -24, y: -1, z: 116}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &569547517
 Transform:
   m_ObjectHideFlags: 0
@@ -6893,6 +7068,7 @@ MonoBehaviour:
   baseAgent: {fileID: 0}
   agents:
   - {fileID: 1101571111}
+  agentColors: []
   acceptableRadius: 20
   agentCount: 10
   runSequential: 0
@@ -6947,7 +7123,7 @@ MonoBehaviour:
   - {fileID: 864635803}
   - {fileID: 1178737919}
   position: {x: 20, y: -1, z: 124}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &596748313
 Transform:
   m_ObjectHideFlags: 0
@@ -6996,7 +7172,7 @@ MonoBehaviour:
   - {fileID: 2063521478}
   - {fileID: 762974536}
   position: {x: 44, y: -1, z: 56}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &597090892
 Transform:
   m_ObjectHideFlags: 0
@@ -7046,7 +7222,7 @@ MonoBehaviour:
   - {fileID: 300896489}
   - {fileID: 1315451081}
   position: {x: 56, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &598622704
 Transform:
   m_ObjectHideFlags: 0
@@ -7095,7 +7271,7 @@ MonoBehaviour:
   - {fileID: 1453773628}
   - {fileID: 2102834695}
   position: {x: 28, y: -1, z: 96}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &601134792
 Transform:
   m_ObjectHideFlags: 0
@@ -7144,7 +7320,7 @@ MonoBehaviour:
   - {fileID: 639998234}
   - {fileID: 810615810}
   position: {x: 36, y: -1, z: 72}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &609011125
 Transform:
   m_ObjectHideFlags: 0
@@ -7194,7 +7370,7 @@ MonoBehaviour:
   - {fileID: 1341384408}
   - {fileID: 647196239}
   position: {x: -32, y: -1, z: 24}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &612072277
 Transform:
   m_ObjectHideFlags: 0
@@ -7243,7 +7419,7 @@ MonoBehaviour:
   - {fileID: 1991206369}
   - {fileID: 180997099}
   position: {x: -15, y: -1, z: 45}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &614751996
 Transform:
   m_ObjectHideFlags: 0
@@ -7296,7 +7472,7 @@ MonoBehaviour:
   - {fileID: 1979462243}
   - {fileID: 353899966}
   position: {x: -12, y: -1, z: 108}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &625956752
 Transform:
   m_ObjectHideFlags: 0
@@ -7348,7 +7524,7 @@ MonoBehaviour:
   - {fileID: 1010657476}
   - {fileID: 2039003886}
   position: {x: 16, y: -1, z: 112}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &628302166
 Transform:
   m_ObjectHideFlags: 0
@@ -7401,7 +7577,7 @@ MonoBehaviour:
   - {fileID: 801422633}
   - {fileID: 795995525}
   position: {x: 0, y: -1, z: 96}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &632076314
 Transform:
   m_ObjectHideFlags: 0
@@ -7451,7 +7627,7 @@ MonoBehaviour:
   - {fileID: 609011124}
   - {fileID: 1210389249}
   position: {x: 36, y: -1, z: 76}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &639998235
 Transform:
   m_ObjectHideFlags: 0
@@ -7501,7 +7677,7 @@ MonoBehaviour:
   - {fileID: 1608675473}
   - {fileID: 902076110}
   position: {x: 12, y: -1, z: 52}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &642028590
 Transform:
   m_ObjectHideFlags: 0
@@ -7550,7 +7726,7 @@ MonoBehaviour:
   - {fileID: 542413433}
   - {fileID: 722254420}
   position: {x: -24, y: -1, z: 44}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &646007560
 Transform:
   m_ObjectHideFlags: 0
@@ -7600,7 +7776,7 @@ MonoBehaviour:
   - {fileID: 477330717}
   - {fileID: 1057984096}
   position: {x: -32, y: -1, z: 20}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &647196240
 Transform:
   m_ObjectHideFlags: 0
@@ -7651,7 +7827,7 @@ MonoBehaviour:
   - {fileID: 596748312}
   - {fileID: 1178737919}
   position: {x: 24, y: -1, z: 124}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &649375360
 Transform:
   m_ObjectHideFlags: 0
@@ -7702,7 +7878,7 @@ MonoBehaviour:
   - {fileID: 262489583}
   - {fileID: 821233954}
   position: {x: -36, y: -1, z: 80}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &650116141
 Transform:
   m_ObjectHideFlags: 0
@@ -7751,7 +7927,7 @@ MonoBehaviour:
   - {fileID: 146270394}
   - {fileID: 381102368}
   position: {x: -16, y: -1, z: 16}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &653058721
 Transform:
   m_ObjectHideFlags: 0
@@ -7803,7 +7979,7 @@ MonoBehaviour:
   - {fileID: 1966191588}
   - {fileID: 124981493}
   position: {x: 56, y: -1, z: 56}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &667237683
 Transform:
   m_ObjectHideFlags: 0
@@ -7854,7 +8030,7 @@ MonoBehaviour:
   - {fileID: 1098154243}
   - {fileID: 325593636}
   position: {x: -48, y: -1, z: 76}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &686347162
 Transform:
   m_ObjectHideFlags: 0
@@ -7905,7 +8081,7 @@ MonoBehaviour:
   - {fileID: 1010657476}
   - {fileID: 1244012034}
   position: {x: 12, y: -1, z: 116}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &692453925
 Transform:
   m_ObjectHideFlags: 0
@@ -7954,7 +8130,7 @@ MonoBehaviour:
   - {fileID: 1811875707}
   - {fileID: 337210251}
   position: {x: -32, y: -1, z: 60}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &702253397
 Transform:
   m_ObjectHideFlags: 0
@@ -7970,6 +8146,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 132211630}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &702371427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 702371428}
+  - component: {fileID: 702371429}
+  m_Layer: 0
+  m_Name: Start (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &702371428
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702371427}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 16, y: -1, z: 0.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 233344056}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &702371429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702371427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec56661111efa843a369b4a51df161a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentColor: {r: 1, g: 0.39741516, b: 0, a: 1}
+  agentDefinition:
+    radius: 0.5
+    speed: 8
+    priority: 0
+  targetPositionObject: {fileID: 847625491}
+  m_animationTime: -1
 --- !u!1 &703503128
 GameObject:
   m_ObjectHideFlags: 0
@@ -8003,7 +8230,7 @@ MonoBehaviour:
   - {fileID: 890681761}
   - {fileID: 1849352538}
   position: {x: -44, y: -1, z: 48}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &703503130
 Transform:
   m_ObjectHideFlags: 0
@@ -8053,7 +8280,7 @@ MonoBehaviour:
   - {fileID: 333374906}
   - {fileID: 541444947}
   position: {x: 8, y: -1, z: 40}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &703798053
 Transform:
   m_ObjectHideFlags: 0
@@ -8101,7 +8328,7 @@ MonoBehaviour:
   connections:
   - {fileID: 1601033947}
   position: {x: -36, y: -1, z: 116}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &710713430
 Transform:
   m_ObjectHideFlags: 0
@@ -8154,7 +8381,7 @@ MonoBehaviour:
   - {fileID: 1014277368}
   - {fileID: 228786540}
   position: {x: 28, y: -1, z: 108}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &720902156
 Transform:
   m_ObjectHideFlags: 0
@@ -8203,7 +8430,7 @@ MonoBehaviour:
   - {fileID: 646007559}
   - {fileID: 2076606065}
   position: {x: -24, y: -1, z: 40}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &722254421
 Transform:
   m_ObjectHideFlags: 0
@@ -8254,7 +8481,7 @@ MonoBehaviour:
   - {fileID: 204100291}
   - {fileID: 80337453}
   position: {x: -4, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &725605125
 Transform:
   m_ObjectHideFlags: 0
@@ -8304,7 +8531,7 @@ MonoBehaviour:
   - {fileID: 1881373415}
   - {fileID: 1084096860}
   position: {x: 56, y: -1, z: 76}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &729915380
 Transform:
   m_ObjectHideFlags: 0
@@ -8353,7 +8580,7 @@ MonoBehaviour:
   - {fileID: 447276519}
   - {fileID: 1773669481}
   position: {x: 12, y: -1, z: 28}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &733208469
 Transform:
   m_ObjectHideFlags: 0
@@ -8405,7 +8632,7 @@ MonoBehaviour:
   - {fileID: 2096589969}
   - {fileID: 463664189}
   position: {x: -52, y: -1, z: 68}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &735125228
 Transform:
   m_ObjectHideFlags: 0
@@ -8454,7 +8681,7 @@ MonoBehaviour:
   - {fileID: 753869637}
   - {fileID: 804087756}
   position: {x: -3, y: -1, z: 45}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &737804188
 Transform:
   m_ObjectHideFlags: 0
@@ -8503,7 +8730,7 @@ MonoBehaviour:
   - {fileID: 396259919}
   - {fileID: 1161149181}
   position: {x: -28, y: -1, z: 52}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &739298184
 Transform:
   m_ObjectHideFlags: 0
@@ -8554,7 +8781,7 @@ MonoBehaviour:
   - {fileID: 1330364655}
   - {fileID: 558837982}
   position: {x: -48, y: -1, z: 52}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &744310742
 Transform:
   m_ObjectHideFlags: 0
@@ -8609,7 +8836,7 @@ MonoBehaviour:
   - {fileID: 52889331}
   - {fileID: 887917872}
   position: {x: -32, y: -1, z: 88}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &750843141
 Transform:
   m_ObjectHideFlags: 0
@@ -8661,7 +8888,7 @@ MonoBehaviour:
   - {fileID: 1409267599}
   - {fileID: 737804187}
   position: {x: 0, y: -1, z: 48}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &753869638
 Transform:
   m_ObjectHideFlags: 0
@@ -8746,7 +8973,7 @@ MonoBehaviour:
   - {fileID: 795995525}
   - {fileID: 147251698}
   position: {x: 0, y: -1, z: 92}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &761156490
 Transform:
   m_ObjectHideFlags: 0
@@ -8795,7 +9022,7 @@ MonoBehaviour:
   - {fileID: 597090891}
   - {fileID: 236397115}
   position: {x: 40, y: -1, z: 56}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &762974537
 Transform:
   m_ObjectHideFlags: 0
@@ -8845,7 +9072,7 @@ MonoBehaviour:
   - {fileID: 361176248}
   - {fileID: 1687114658}
   position: {x: 41.5, y: -1, z: 101.5}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &774291341
 Transform:
   m_ObjectHideFlags: 0
@@ -8861,6 +9088,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 132211630}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &776862999
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 776863000}
+  - component: {fileID: 776863001}
+  m_Layer: 0
+  m_Name: Start (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &776863000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776862999}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4, y: -1, z: 16.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 233344056}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &776863001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776862999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec56661111efa843a369b4a51df161a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentColor: {r: 1, g: 0.051016767, b: 0, a: 1}
+  agentDefinition:
+    radius: 0.5
+    speed: 8
+    priority: 0
+  targetPositionObject: {fileID: 190670770}
+  m_animationTime: -1
 --- !u!1 &789905563
 GameObject:
   m_ObjectHideFlags: 0
@@ -8895,7 +9173,7 @@ MonoBehaviour:
   - {fileID: 753869637}
   - {fileID: 804087756}
   position: {x: 4, y: -1, z: 44}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &789905565
 Transform:
   m_ObjectHideFlags: 0
@@ -8950,7 +9228,7 @@ MonoBehaviour:
   - {fileID: 1939748469}
   - {fileID: 1609985727}
   position: {x: -4, y: -1, z: 92}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &795995526
 Transform:
   m_ObjectHideFlags: 0
@@ -8999,7 +9277,7 @@ MonoBehaviour:
   - {fileID: 834895602}
   - {fileID: 160808450}
   position: {x: 4, y: -1, z: 124}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &799766777
 Transform:
   m_ObjectHideFlags: 0
@@ -9054,7 +9332,7 @@ MonoBehaviour:
   - {fileID: 998716409}
   - {fileID: 1939748469}
   position: {x: -4, y: -1, z: 96}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &801422634
 Transform:
   m_ObjectHideFlags: 0
@@ -9106,7 +9384,7 @@ MonoBehaviour:
   - {fileID: 553930931}
   - {fileID: 737804187}
   position: {x: 0, y: -1, z: 44}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &804087757
 Transform:
   m_ObjectHideFlags: 0
@@ -9157,7 +9435,7 @@ MonoBehaviour:
   - {fileID: 2049386270}
   - {fileID: 1782745757}
   position: {x: -28, y: -1, z: 76}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &805095780
 Transform:
   m_ObjectHideFlags: 0
@@ -9206,7 +9484,7 @@ MonoBehaviour:
   - {fileID: 1052027536}
   - {fileID: 399463203}
   position: {x: 56, y: -1, z: 64}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &806761695
 Transform:
   m_ObjectHideFlags: 0
@@ -9255,7 +9533,7 @@ MonoBehaviour:
   - {fileID: 609011124}
   - {fileID: 1909816015}
   position: {x: 36, y: -1, z: 68}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &810615811
 Transform:
   m_ObjectHideFlags: 0
@@ -9308,7 +9586,7 @@ MonoBehaviour:
   - {fileID: 1847407574}
   - {fileID: 548307396}
   position: {x: -40, y: -1, z: 76}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &821233955
 Transform:
   m_ObjectHideFlags: 0
@@ -9360,7 +9638,7 @@ MonoBehaviour:
   - {fileID: 1317973403}
   - {fileID: 382309720}
   position: {x: -24, y: -1, z: 68}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &821809915
 Transform:
   m_ObjectHideFlags: 0
@@ -9411,7 +9689,7 @@ MonoBehaviour:
   - {fileID: 1244012034}
   - {fileID: 1739626097}
   position: {x: 4, y: -1, z: 120}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &834895603
 Transform:
   m_ObjectHideFlags: 0
@@ -9427,6 +9705,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 132211630}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &838593893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 838593894}
+  - component: {fileID: 838593895}
+  m_Layer: 0
+  m_Name: Start (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &838593894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838593893}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4, y: -1, z: -19.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 233344056}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &838593895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838593893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec56661111efa843a369b4a51df161a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentColor: {r: 0, g: 0.23994851, b: 1, a: 1}
+  agentDefinition:
+    radius: 0.5
+    speed: 8
+    priority: 0
+  targetPositionObject: {fileID: 1626996115}
+  m_animationTime: -1
 --- !u!1 &843225944
 GameObject:
   m_ObjectHideFlags: 0
@@ -9462,7 +9791,7 @@ MonoBehaviour:
   - {fileID: 1620057305}
   - {fileID: 1979462243}
   position: {x: -12, y: -1, z: 116}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &843225946
 Transform:
   m_ObjectHideFlags: 0
@@ -9512,7 +9841,7 @@ MonoBehaviour:
   - {fileID: 80337453}
   - {fileID: 1371463949}
   position: {x: -12, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &846676886
 Transform:
   m_ObjectHideFlags: 0
@@ -9527,6 +9856,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 132211630}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &847625491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 847625492}
+  m_Layer: 0
+  m_Name: Goal (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &847625492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847625491}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8, y: -1, z: -7.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 233344056}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &852222384
 GameObject:
@@ -9565,7 +9925,7 @@ MonoBehaviour:
   - {fileID: 1206486569}
   - {fileID: 237529815}
   position: {x: 4, y: -1, z: 108}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &852222386
 Transform:
   m_ObjectHideFlags: 0
@@ -9614,6 +9974,7 @@ MonoBehaviour:
   agents:
   - {fileID: 1967829961}
   - {fileID: 974612432}
+  agentColors: []
   acceptableRadius: 20
   agentCount: 10
   runSequential: 0
@@ -9670,7 +10031,7 @@ MonoBehaviour:
   - {fileID: 492109874}
   - {fileID: 348459333}
   position: {x: 40, y: -1, z: 124}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &861450588
 Transform:
   m_ObjectHideFlags: 0
@@ -9724,7 +10085,7 @@ MonoBehaviour:
   - {fileID: 1354595249}
   - {fileID: 483405940}
   position: {x: 5, y: -1, z: 73}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &862474815
 Transform:
   m_ObjectHideFlags: 0
@@ -9775,7 +10136,7 @@ MonoBehaviour:
   - {fileID: 596748312}
   - {fileID: 1178737919}
   position: {x: 24, y: -1, z: 120}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &864635804
 Transform:
   m_ObjectHideFlags: 0
@@ -9827,7 +10188,7 @@ MonoBehaviour:
   - {fileID: 482138526}
   - {fileID: 465093189}
   position: {x: -36, y: -1, z: 68}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &875455546
 Transform:
   m_ObjectHideFlags: 0
@@ -9878,7 +10239,7 @@ MonoBehaviour:
   - {fileID: 931341317}
   - {fileID: 427619885}
   position: {x: 32, y: -1, z: 124}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &877112278
 Transform:
   m_ObjectHideFlags: 0
@@ -9929,7 +10290,7 @@ MonoBehaviour:
   - {fileID: 1881373415}
   - {fileID: 1084096860}
   position: {x: 56, y: -1, z: 72}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &879414984
 Transform:
   m_ObjectHideFlags: 0
@@ -9945,6 +10306,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 132211630}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &885141216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 885141217}
+  - component: {fileID: 885141218}
+  m_Layer: 0
+  m_Name: Start (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &885141217
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885141216}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4, y: -1, z: -7.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 233344056}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &885141218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885141216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec56661111efa843a369b4a51df161a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentColor: {r: 1, g: 0.74650204, b: 0, a: 1}
+  agentDefinition:
+    radius: 0.5
+    speed: 8
+    priority: 0
+  targetPositionObject: {fileID: 1142931560}
+  m_animationTime: -1
 --- !u!1 &887917871
 GameObject:
   m_ObjectHideFlags: 0
@@ -9980,7 +10392,7 @@ MonoBehaviour:
   - {fileID: 1593796882}
   - {fileID: 1629924405}
   position: {x: -35, y: -1, z: 85}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &887917873
 Transform:
   m_ObjectHideFlags: 0
@@ -10029,7 +10441,7 @@ MonoBehaviour:
   - {fileID: 703503129}
   - {fileID: 744310741}
   position: {x: -44, y: -1, z: 52}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &890681762
 Transform:
   m_ObjectHideFlags: 0
@@ -10081,7 +10493,7 @@ MonoBehaviour:
   - {fileID: 1751400317}
   - {fileID: 177046397}
   position: {x: 0, y: -1, z: 116}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &900489512
 Transform:
   m_ObjectHideFlags: 0
@@ -10133,7 +10545,7 @@ MonoBehaviour:
   - {fileID: 65904407}
   - {fileID: 1989376188}
   position: {x: 8, y: -1, z: 48}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &902076111
 Transform:
   m_ObjectHideFlags: 0
@@ -10185,7 +10597,7 @@ MonoBehaviour:
   - {fileID: 1354595249}
   - {fileID: 483405940}
   position: {x: 4, y: -1, z: 76}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &913801765
 Transform:
   m_ObjectHideFlags: 0
@@ -10234,7 +10646,7 @@ MonoBehaviour:
   - {fileID: 1526831333}
   - {fileID: 15026493}
   position: {x: 16, y: -1, z: 68}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &916179970
 Transform:
   m_ObjectHideFlags: 0
@@ -10283,7 +10695,7 @@ MonoBehaviour:
   - {fileID: 501334773}
   - {fileID: 625956751}
   position: {x: -7, y: -1, z: 109}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &917161423
 Transform:
   m_ObjectHideFlags: 0
@@ -10332,7 +10744,7 @@ MonoBehaviour:
   - {fileID: 1664017640}
   - {fileID: 639998234}
   position: {x: 40, y: -1, z: 76}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &917433706
 Transform:
   m_ObjectHideFlags: 0
@@ -10381,7 +10793,7 @@ MonoBehaviour:
   - {fileID: 561940358}
   - {fileID: 380590076}
   position: {x: 12, y: -1, z: 20}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &921442757
 Transform:
   m_ObjectHideFlags: 0
@@ -10431,7 +10843,7 @@ MonoBehaviour:
   - {fileID: 1928618606}
   - {fileID: 246028319}
   position: {x: -36, y: -1, z: 96}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &924829781
 Transform:
   m_ObjectHideFlags: 0
@@ -10480,7 +10892,7 @@ MonoBehaviour:
   - {fileID: 955011897}
   - {fileID: 846676885}
   position: {x: -12, y: -1, z: 40}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &924940048
 Transform:
   m_ObjectHideFlags: 0
@@ -10529,7 +10941,7 @@ MonoBehaviour:
   - {fileID: 1052266239}
   - {fileID: 167118790}
   position: {x: -20, y: -1, z: 92}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &926160825
 Transform:
   m_ObjectHideFlags: 0
@@ -10582,7 +10994,7 @@ MonoBehaviour:
   - {fileID: 1931110094}
   - {fileID: 378170737}
   position: {x: -44, y: -1, z: 88}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &927260968
 Transform:
   m_ObjectHideFlags: 0
@@ -10632,7 +11044,7 @@ MonoBehaviour:
   - {fileID: 163875955}
   - {fileID: 1771646803}
   position: {x: 32, y: -1, z: 60}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &927413416
 Transform:
   m_ObjectHideFlags: 0
@@ -10681,7 +11093,7 @@ MonoBehaviour:
   - {fileID: 1297034149}
   - {fileID: 1723696258}
   position: {x: 48, y: -1, z: 48}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &927797945
 Transform:
   m_ObjectHideFlags: 0
@@ -10731,7 +11143,7 @@ MonoBehaviour:
   - {fileID: 427619885}
   - {fileID: 649375359}
   position: {x: 28, y: -1, z: 124}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &931341318
 Transform:
   m_ObjectHideFlags: 0
@@ -10784,7 +11196,7 @@ MonoBehaviour:
   - {fileID: 1664017640}
   - {fileID: 1376469023}
   position: {x: 48, y: -1, z: 76}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &940900815
 Transform:
   m_ObjectHideFlags: 0
@@ -10833,7 +11245,7 @@ MonoBehaviour:
   - {fileID: 1756713089}
   - {fileID: 232771817}
   position: {x: 32, y: -1, z: 44}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &953708554
 Transform:
   m_ObjectHideFlags: 0
@@ -10883,7 +11295,7 @@ MonoBehaviour:
   - {fileID: 80337453}
   - {fileID: 924940047}
   position: {x: -8, y: -1, z: 40}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &955011898
 Transform:
   m_ObjectHideFlags: 0
@@ -10933,7 +11345,7 @@ MonoBehaviour:
   - {fileID: 1909816015}
   - {fileID: 22577420}
   position: {x: 28, y: -1, z: 68}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &957475622
 Transform:
   m_ObjectHideFlags: 0
@@ -10981,7 +11393,7 @@ MonoBehaviour:
   connections:
   - {fileID: 1601033947}
   position: {x: -36, y: -1, z: 124}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &958215400
 Transform:
   m_ObjectHideFlags: 0
@@ -11030,7 +11442,7 @@ MonoBehaviour:
   - {fileID: 146270394}
   - {fileID: 1421187845}
   position: {x: -16, y: -1, z: 24}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &962754656
 Transform:
   m_ObjectHideFlags: 0
@@ -11079,7 +11491,7 @@ MonoBehaviour:
   - {fileID: 1691089451}
   - {fileID: 2721205}
   position: {x: -52, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &966822898
 Transform:
   m_ObjectHideFlags: 0
@@ -11272,7 +11684,7 @@ MonoBehaviour:
   - {fileID: 265714919}
   - {fileID: 1384920197}
   position: {x: 4, y: -1, z: 32}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &984380874
 Transform:
   m_ObjectHideFlags: 0
@@ -11321,7 +11733,7 @@ MonoBehaviour:
   - {fileID: 200352634}
   - {fileID: 453126533}
   position: {x: -32, y: -1, z: 32}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &997209439
 Transform:
   m_ObjectHideFlags: 0
@@ -11373,7 +11785,7 @@ MonoBehaviour:
   - {fileID: 795995525}
   - {fileID: 1939748469}
   position: {x: -8, y: -1, z: 96}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &998716410
 Transform:
   m_ObjectHideFlags: 0
@@ -11422,7 +11834,7 @@ MonoBehaviour:
   - {fileID: 1266645897}
   - {fileID: 482777811}
   position: {x: -44, y: -1, z: 108}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1005925759
 Transform:
   m_ObjectHideFlags: 0
@@ -11474,7 +11886,7 @@ MonoBehaviour:
   - {fileID: 348873706}
   - {fileID: 1134773889}
   position: {x: -40, y: -1, z: 56}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1007331538
 Transform:
   m_ObjectHideFlags: 0
@@ -11527,7 +11939,7 @@ MonoBehaviour:
   - {fileID: 2039003886}
   - {fileID: 1303293432}
   position: {x: 12, y: -1, z: 112}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1010657477
 Transform:
   m_ObjectHideFlags: 0
@@ -11579,7 +11991,7 @@ MonoBehaviour:
   - {fileID: 247870316}
   - {fileID: 1453773628}
   position: {x: 28, y: -1, z: 104}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1014277369
 Transform:
   m_ObjectHideFlags: 0
@@ -11627,7 +12039,7 @@ MonoBehaviour:
   connections:
   - {fileID: 1390765900}
   position: {x: 12, y: -1, z: 44}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1025460947
 Transform:
   m_ObjectHideFlags: 0
@@ -11676,7 +12088,7 @@ MonoBehaviour:
   - {fileID: 160808450}
   - {fileID: 477921477}
   position: {x: -4, y: -1, z: 124}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1027119390
 Transform:
   m_ObjectHideFlags: 0
@@ -11726,7 +12138,7 @@ MonoBehaviour:
   - {fileID: 625956751}
   - {fileID: 1717304053}
   position: {x: -8, y: -1, z: 104}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1039781022
 Transform:
   m_ObjectHideFlags: 0
@@ -11775,7 +12187,7 @@ MonoBehaviour:
   - {fileID: 1897409083}
   - {fileID: 1601033947}
   position: {x: -32, y: -1, z: 120}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1040806833
 Transform:
   m_ObjectHideFlags: 0
@@ -11825,7 +12237,7 @@ MonoBehaviour:
   - {fileID: 436736164}
   - {fileID: 1691089451}
   position: {x: -44, y: -1, z: 40}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1042049092
 Transform:
   m_ObjectHideFlags: 0
@@ -11925,7 +12337,7 @@ MonoBehaviour:
   - {fileID: 1914685119}
   - {fileID: 453126533}
   position: {x: -28, y: -1, z: 28}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1045777297
 Transform:
   m_ObjectHideFlags: 0
@@ -11975,7 +12387,7 @@ MonoBehaviour:
   - {fileID: 1466313412}
   - {fileID: 1928618606}
   position: {x: -28, y: -1, z: 96}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1050075751
 Transform:
   m_ObjectHideFlags: 0
@@ -12024,7 +12436,7 @@ MonoBehaviour:
   - {fileID: 879414983}
   - {fileID: 806761694}
   position: {x: 56, y: -1, z: 68}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1052027537
 Transform:
   m_ObjectHideFlags: 0
@@ -12073,7 +12485,7 @@ MonoBehaviour:
   - {fileID: 1370564450}
   - {fileID: 926160824}
   position: {x: -16, y: -1, z: 92}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1052266240
 Transform:
   m_ObjectHideFlags: 0
@@ -12123,7 +12535,7 @@ MonoBehaviour:
   - {fileID: 1010657476}
   - {fileID: 2039003886}
   position: {x: 16, y: -1, z: 108}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1055031583
 Transform:
   m_ObjectHideFlags: 0
@@ -12172,7 +12584,7 @@ MonoBehaviour:
   - {fileID: 647196239}
   - {fileID: 1634565363}
   position: {x: -32, y: -1, z: 16}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1057984097
 Transform:
   m_ObjectHideFlags: 0
@@ -12222,7 +12634,7 @@ MonoBehaviour:
   - {fileID: 300896489}
   - {fileID: 1723696258}
   position: {x: 52, y: -1, z: 44}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1063366429
 Transform:
   m_ObjectHideFlags: 0
@@ -12274,7 +12686,7 @@ MonoBehaviour:
   - {fileID: 940900814}
   - {fileID: 1976827963}
   position: {x: 52, y: -1, z: 72}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1084096861
 Transform:
   m_ObjectHideFlags: 0
@@ -12326,7 +12738,7 @@ MonoBehaviour:
   - {fileID: 200129090}
   - {fileID: 1763707558}
   position: {x: -44, y: -1, z: 72}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1098154244
 Transform:
   m_ObjectHideFlags: 0
@@ -12427,7 +12839,7 @@ MonoBehaviour:
   - {fileID: 805095779}
   - {fileID: 1782745757}
   position: {x: -24, y: -1, z: 76}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1107208128
 Transform:
   m_ObjectHideFlags: 0
@@ -12477,7 +12889,7 @@ MonoBehaviour:
   - {fileID: 1263604787}
   - {fileID: 348873706}
   position: {x: -40, y: -1, z: 52}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1134773890
 Transform:
   m_ObjectHideFlags: 0
@@ -12526,7 +12938,7 @@ MonoBehaviour:
   - {fileID: 1231113356}
   - {fileID: 1955953268}
   position: {x: -4, y: -1, z: 24}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1137747578
 Transform:
   m_ObjectHideFlags: 0
@@ -12541,6 +12953,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 132211630}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1142931560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1142931561}
+  m_Layer: 0
+  m_Name: Goal (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1142931561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142931560}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4, y: -1, z: 8.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 233344056}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1148926984
 GameObject:
@@ -12575,7 +13018,7 @@ MonoBehaviour:
   - {fileID: 1315451081}
   - {fileID: 1984977644}
   position: {x: 48, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1148926986
 Transform:
   m_ObjectHideFlags: 0
@@ -12626,7 +13069,7 @@ MonoBehaviour:
   - {fileID: 1771646803}
   - {fileID: 1640945210}
   position: {x: 32, y: -1, z: 52}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1156375621
 Transform:
   m_ObjectHideFlags: 0
@@ -12676,7 +13119,7 @@ MonoBehaviour:
   - {fileID: 101111533}
   - {fileID: 348873706}
   position: {x: -32, y: -1, z: 52}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1161149182
 Transform:
   m_ObjectHideFlags: 0
@@ -12727,7 +13170,7 @@ MonoBehaviour:
   - {fileID: 1572797476}
   - {fileID: 2039508502}
   position: {x: 32, y: -1, z: 116}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1164118222
 Transform:
   m_ObjectHideFlags: 0
@@ -12778,7 +13221,7 @@ MonoBehaviour:
   - {fileID: 1595108457}
   - {fileID: 725605124}
   position: {x: 0, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1167300246
 Transform:
   m_ObjectHideFlags: 0
@@ -12830,7 +13273,7 @@ MonoBehaviour:
   - {fileID: 862474814}
   - {fileID: 1358609421}
   position: {x: 8, y: -1, z: 72}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1173405940
 Transform:
   m_ObjectHideFlags: 0
@@ -12881,7 +13324,7 @@ MonoBehaviour:
   - {fileID: 864635803}
   - {fileID: 56149261}
   position: {x: 20, y: -1, z: 120}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1178737920
 Transform:
   m_ObjectHideFlags: 0
@@ -12930,7 +13373,7 @@ MonoBehaviour:
   - {fileID: 1680730481}
   - {fileID: 1333876680}
   position: {x: -4, y: -1, z: 80}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1194742119
 Transform:
   m_ObjectHideFlags: 0
@@ -13076,7 +13519,7 @@ MonoBehaviour:
   - {fileID: 395244735}
   - {fileID: 1866099519}
   position: {x: -48, y: -1, z: 64}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1201189767
 Transform:
   m_ObjectHideFlags: 0
@@ -13131,7 +13574,7 @@ MonoBehaviour:
   - {fileID: 501334773}
   - {fileID: 1883924122}
   position: {x: 0, y: -1, z: 108}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1206486570
 Transform:
   m_ObjectHideFlags: 0
@@ -13180,7 +13623,7 @@ MonoBehaviour:
   - {fileID: 639998234}
   - {fileID: 1258842873}
   position: {x: 32, y: -1, z: 76}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1210389250
 Transform:
   m_ObjectHideFlags: 0
@@ -13229,7 +13672,7 @@ MonoBehaviour:
   - {fileID: 96960559}
   - {fileID: 1330364655}
   position: {x: -55, y: -1, z: 57}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1222836912
 Transform:
   m_ObjectHideFlags: 0
@@ -13278,7 +13721,7 @@ MonoBehaviour:
   - {fileID: 101111533}
   - {fileID: 1669040049}
   position: {x: -32, y: -1, z: 44}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1226648048
 Transform:
   m_ObjectHideFlags: 0
@@ -13329,7 +13772,7 @@ MonoBehaviour:
   - {fileID: 1535341739}
   - {fileID: 1137747577}
   position: {x: 0, y: -1, z: 24}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1231113357
 Transform:
   m_ObjectHideFlags: 0
@@ -13378,7 +13821,7 @@ MonoBehaviour:
   - {fileID: 1530820865}
   - {fileID: 106837700}
   position: {x: 24, y: -1, z: 20}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1237722294
 Transform:
   m_ObjectHideFlags: 0
@@ -13431,7 +13874,7 @@ MonoBehaviour:
   - {fileID: 1007331537}
   - {fileID: 325083097}
   position: {x: -40, y: -1, z: 60}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1240342961
 Transform:
   m_ObjectHideFlags: 0
@@ -13480,7 +13923,7 @@ MonoBehaviour:
   - {fileID: 2038262385}
   - {fileID: 1528985458}
   position: {x: -48, y: -1, z: 100}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1240395246
 Transform:
   m_ObjectHideFlags: 0
@@ -13531,7 +13974,7 @@ MonoBehaviour:
   - {fileID: 834895602}
   - {fileID: 1739626097}
   position: {x: 8, y: -1, z: 116}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1244012035
 Transform:
   m_ObjectHideFlags: 0
@@ -13580,7 +14023,7 @@ MonoBehaviour:
   - {fileID: 353899966}
   - {fileID: 1479328755}
   position: {x: -20, y: -1, z: 108}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1253360569
 Transform:
   m_ObjectHideFlags: 0
@@ -13629,7 +14072,7 @@ MonoBehaviour:
   - {fileID: 325593636}
   - {fileID: 1895327144}
   position: {x: -55, y: -1, z: 81}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1257232883
 Transform:
   m_ObjectHideFlags: 0
@@ -13679,7 +14122,7 @@ MonoBehaviour:
   - {fileID: 1210389249}
   - {fileID: 2075318461}
   position: {x: 28, y: -1, z: 76}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1258842874
 Transform:
   m_ObjectHideFlags: 0
@@ -13731,7 +14174,7 @@ MonoBehaviour:
   - {fileID: 1007331537}
   - {fileID: 1134773889}
   position: {x: -36, y: -1, z: 56}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1263604788
 Transform:
   m_ObjectHideFlags: 0
@@ -13746,6 +14189,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 132211630}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1266290974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1266290975}
+  m_Layer: 0
+  m_Name: Goal (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1266290975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266290974}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3, y: -1, z: 5.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 233344056}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1266645896
 GameObject:
@@ -13780,7 +14254,7 @@ MonoBehaviour:
   - {fileID: 1978799512}
   - {fileID: 1005925758}
   position: {x: -40, y: -1, z: 108}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1266645898
 Transform:
   m_ObjectHideFlags: 0
@@ -13830,7 +14304,7 @@ MonoBehaviour:
   - {fileID: 2129103496}
   - {fileID: 1430636936}
   position: {x: -44, y: -1, z: 56}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1269446600
 Transform:
   m_ObjectHideFlags: 0
@@ -13879,7 +14353,7 @@ MonoBehaviour:
   - {fileID: 1409622469}
   - {fileID: 1914685119}
   position: {x: -20, y: -1, z: 28}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1275070797
 Transform:
   m_ObjectHideFlags: 0
@@ -13933,7 +14407,7 @@ MonoBehaviour:
   - {fileID: 1751400317}
   - {fileID: 177046397}
   position: {x: 1, y: -1, z: 113}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1277555145
 Transform:
   m_ObjectHideFlags: 0
@@ -13983,7 +14457,7 @@ MonoBehaviour:
   - {fileID: 1996509426}
   - {fileID: 720902155}
   position: {x: 28, y: -1, z: 112}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1288679942
 Transform:
   m_ObjectHideFlags: 0
@@ -14032,7 +14506,7 @@ MonoBehaviour:
   - {fileID: 1479328755}
   - {fileID: 431477870}
   position: {x: -28, y: -1, z: 108}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1289196985
 Transform:
   m_ObjectHideFlags: 0
@@ -14085,7 +14559,7 @@ MonoBehaviour:
   - {fileID: 1771646803}
   - {fileID: 1640945210}
   position: {x: 32, y: -1, z: 56}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1290033784
 Transform:
   m_ObjectHideFlags: 0
@@ -14135,7 +14609,7 @@ MonoBehaviour:
   - {fileID: 1966191588}
   - {fileID: 927797944}
   position: {x: 48, y: -1, z: 52}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1297034150
 Transform:
   m_ObjectHideFlags: 0
@@ -14184,7 +14658,7 @@ MonoBehaviour:
   - {fileID: 1010657476}
   - {fileID: 83424482}
   position: {x: 8, y: -1, z: 112}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1303293433
 Transform:
   m_ObjectHideFlags: 0
@@ -14233,7 +14707,7 @@ MonoBehaviour:
   - {fileID: 861450587}
   - {fileID: 492109874}
   position: {x: 44, y: -1, z: 124}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1307308895
 Transform:
   m_ObjectHideFlags: 0
@@ -14282,7 +14756,7 @@ MonoBehaviour:
   - {fileID: 309712134}
   - {fileID: 1771886614}
   position: {x: 0, y: -1, z: 12}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1307342891
 Transform:
   m_ObjectHideFlags: 0
@@ -14332,7 +14806,7 @@ MonoBehaviour:
   - {fileID: 598622703}
   - {fileID: 1148926985}
   position: {x: 52, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1315451082
 Transform:
   m_ObjectHideFlags: 0
@@ -14384,7 +14858,7 @@ MonoBehaviour:
   - {fileID: 1665926056}
   - {fileID: 2101364214}
   position: {x: 21, y: -1, z: 105}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1317259743
 Transform:
   m_ObjectHideFlags: 0
@@ -14436,7 +14910,7 @@ MonoBehaviour:
   - {fileID: 1566160285}
   - {fileID: 382309720}
   position: {x: -28, y: -1, z: 68}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1317973404
 Transform:
   m_ObjectHideFlags: 0
@@ -14486,7 +14960,7 @@ MonoBehaviour:
   - {fileID: 1811875707}
   - {fileID: 396259919}
   position: {x: -24, y: -1, z: 56}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1322299773
 Transform:
   m_ObjectHideFlags: 0
@@ -14536,7 +15010,7 @@ MonoBehaviour:
   - {fileID: 1751400317}
   - {fileID: 434483073}
   position: {x: -8, y: -1, z: 120}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1329449750
 Transform:
   m_ObjectHideFlags: 0
@@ -14585,7 +15059,7 @@ MonoBehaviour:
   - {fileID: 177046397}
   - {fileID: 101876497}
   position: {x: -8, y: -1, z: 112}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1330348844
 Transform:
   m_ObjectHideFlags: 0
@@ -14636,7 +15110,7 @@ MonoBehaviour:
   - {fileID: 96960559}
   - {fileID: 1222836911}
   position: {x: -51, y: -1, z: 57}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1330364656
 Transform:
   m_ObjectHideFlags: 0
@@ -14684,7 +15158,7 @@ MonoBehaviour:
   connections:
   - {fileID: 421978312}
   position: {x: 56, y: -1, z: 48}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1330830065
 Transform:
   m_ObjectHideFlags: 0
@@ -14736,7 +15210,7 @@ MonoBehaviour:
   - {fileID: 1841082483}
   - {fileID: 2060234214}
   position: {x: -4, y: -1, z: 76}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1333876681
 Transform:
   m_ObjectHideFlags: 0
@@ -14785,7 +15259,7 @@ MonoBehaviour:
   - {fileID: 1395234580}
   - {fileID: 612072276}
   position: {x: -28, y: -1, z: 24}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1341384409
 Transform:
   m_ObjectHideFlags: 0
@@ -14836,7 +15310,7 @@ MonoBehaviour:
   - {fileID: 1377679256}
   - {fileID: 322974952}
   position: {x: 5, y: -1, z: 65}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1349818701
 Transform:
   m_ObjectHideFlags: 0
@@ -14940,7 +15414,7 @@ MonoBehaviour:
   - {fileID: 1333876680}
   - {fileID: 1564463356}
   position: {x: 0, y: -1, z: 76}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1354595250
 Transform:
   m_ObjectHideFlags: 0
@@ -14990,7 +15464,7 @@ MonoBehaviour:
   - {fileID: 1173405939}
   - {fileID: 316782097}
   position: {x: 5, y: -1, z: 69}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1358609422
 Transform:
   m_ObjectHideFlags: 0
@@ -15039,7 +15513,7 @@ MonoBehaviour:
   - {fileID: 805095779}
   - {fileID: 306735756}
   position: {x: -28, y: -1, z: 80}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1368694893
 Transform:
   m_ObjectHideFlags: 0
@@ -15088,7 +15562,7 @@ MonoBehaviour:
   - {fileID: 1939748469}
   - {fileID: 1052266239}
   position: {x: -12, y: -1, z: 92}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1370564451
 Transform:
   m_ObjectHideFlags: 0
@@ -15138,7 +15612,7 @@ MonoBehaviour:
   - {fileID: 511473531}
   - {fileID: 1565408566}
   position: {x: -12, y: -1, z: 32}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1371463950
 Transform:
   m_ObjectHideFlags: 0
@@ -15188,7 +15662,7 @@ MonoBehaviour:
   - {fileID: 940900814}
   - {fileID: 1976827963}
   position: {x: 44, y: -1, z: 72}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1376469024
 Transform:
   m_ObjectHideFlags: 0
@@ -15203,6 +15677,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 132211630}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1376681026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1376681027}
+  m_Layer: 0
+  m_Name: Goal (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1376681027
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376681026}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: -1, z: 5.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 233344056}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1377679255
 GameObject:
@@ -15239,7 +15744,7 @@ MonoBehaviour:
   - {fileID: 1349818700}
   - {fileID: 322974952}
   position: {x: 8, y: -1, z: 60}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1377679257
 Transform:
   m_ObjectHideFlags: 0
@@ -15288,7 +15793,7 @@ MonoBehaviour:
   - {fileID: 984380873}
   - {fileID: 1773669481}
   position: {x: 4, y: -1, z: 28}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1384920198
 Transform:
   m_ObjectHideFlags: 0
@@ -15337,7 +15842,7 @@ MonoBehaviour:
   - {fileID: 1632244503}
   - {fileID: 1025460946}
   position: {x: 12, y: -1, z: 48}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1390765901
 Transform:
   m_ObjectHideFlags: 0
@@ -15387,7 +15892,7 @@ MonoBehaviour:
   - {fileID: 2088350649}
   - {fileID: 1341384408}
   position: {x: -24, y: -1, z: 24}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1395234581
 Transform:
   m_ObjectHideFlags: 0
@@ -15467,7 +15972,7 @@ MonoBehaviour:
   - {fileID: 447304330}
   - {fileID: 1442006164}
   position: {x: 28, y: -1, z: 32}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1403835338
 Transform:
   m_ObjectHideFlags: 0
@@ -15516,7 +16021,7 @@ MonoBehaviour:
   - {fileID: 1518077907}
   - {fileID: 111452686}
   position: {x: 16, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1404264437
 Transform:
   m_ObjectHideFlags: 0
@@ -15565,7 +16070,7 @@ MonoBehaviour:
   - {fileID: 99171832}
   - {fileID: 2139481123}
   position: {x: -20, y: -1, z: 32}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1408260529
 Transform:
   m_ObjectHideFlags: 0
@@ -15614,7 +16119,7 @@ MonoBehaviour:
   - {fileID: 753869637}
   - {fileID: 57292409}
   position: {x: -4, y: -1, z: 48}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1409267600
 Transform:
   m_ObjectHideFlags: 0
@@ -15663,7 +16168,7 @@ MonoBehaviour:
   - {fileID: 99171832}
   - {fileID: 1275070796}
   position: {x: -16, y: -1, z: 28}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1409622470
 Transform:
   m_ObjectHideFlags: 0
@@ -15712,7 +16217,7 @@ MonoBehaviour:
   - {fileID: 962754655}
   - {fileID: 1395234580}
   position: {x: -20, y: -1, z: 24}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1421187846
 Transform:
   m_ObjectHideFlags: 0
@@ -15761,7 +16266,7 @@ MonoBehaviour:
   - {fileID: 1535341739}
   - {fileID: 309712134}
   position: {x: 4, y: -1, z: 20}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1422934615
 Transform:
   m_ObjectHideFlags: 0
@@ -15810,7 +16315,7 @@ MonoBehaviour:
   - {fileID: 1620057305}
   - {fileID: 1710874303}
   position: {x: -16, y: -1, z: 120}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1426088387
 Transform:
   m_ObjectHideFlags: 0
@@ -15862,7 +16367,7 @@ MonoBehaviour:
   - {fileID: 744310741}
   - {fileID: 1330364655}
   position: {x: -48, y: -1, z: 56}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1430636937
 Transform:
   m_ObjectHideFlags: 0
@@ -15911,7 +16416,7 @@ MonoBehaviour:
   - {fileID: 501264289}
   - {fileID: 99171832}
   position: {x: -16, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1436383124
 Transform:
   m_ObjectHideFlags: 0
@@ -15960,7 +16465,7 @@ MonoBehaviour:
   - {fileID: 1403835337}
   - {fileID: 284622380}
   position: {x: 28, y: -1, z: 28}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1442006165
 Transform:
   m_ObjectHideFlags: 0
@@ -16042,7 +16547,7 @@ MonoBehaviour:
   - {fileID: 247870316}
   - {fileID: 601134791}
   position: {x: 28, y: -1, z: 100}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1453773629
 Transform:
   m_ObjectHideFlags: 0
@@ -16094,7 +16599,7 @@ MonoBehaviour:
   - {fileID: 924829780}
   - {fileID: 246028319}
   position: {x: -32, y: -1, z: 96}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1466313413
 Transform:
   m_ObjectHideFlags: 0
@@ -16174,7 +16679,7 @@ MonoBehaviour:
   - {fileID: 1253360568}
   - {fileID: 1289196984}
   position: {x: -24, y: -1, z: 108}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1479328756
 Transform:
   m_ObjectHideFlags: 0
@@ -16224,7 +16729,7 @@ MonoBehaviour:
   - {fileID: 1528985458}
   - {fileID: 1931110094}
   position: {x: -44, y: -1, z: 96}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1494318752
 Transform:
   m_ObjectHideFlags: 0
@@ -16274,7 +16779,7 @@ MonoBehaviour:
   - {fileID: 1880531638}
   - {fileID: 1701312176}
   position: {x: 8, y: -1, z: 104}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1503790416
 Transform:
   m_ObjectHideFlags: 0
@@ -16323,7 +16828,7 @@ MonoBehaviour:
   - {fileID: 1891349273}
   - {fileID: 1404264436}
   position: {x: 20, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1518077908
 Transform:
   m_ObjectHideFlags: 0
@@ -16372,7 +16877,7 @@ MonoBehaviour:
   - {fileID: 22577420}
   - {fileID: 916179969}
   position: {x: 20, y: -1, z: 68}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1526831334
 Transform:
   m_ObjectHideFlags: 0
@@ -16424,7 +16929,7 @@ MonoBehaviour:
   - {fileID: 1931110094}
   - {fileID: 1943595672}
   position: {x: -48, y: -1, z: 96}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1528985459
 Transform:
   m_ObjectHideFlags: 0
@@ -16473,7 +16978,7 @@ MonoBehaviour:
   - {fileID: 284622380}
   - {fileID: 1237722293}
   position: {x: 28, y: -1, z: 20}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1530820866
 Transform:
   m_ObjectHideFlags: 0
@@ -16523,7 +17028,7 @@ MonoBehaviour:
   - {fileID: 1422934614}
   - {fileID: 309712134}
   position: {x: 0, y: -1, z: 20}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1535341740
 Transform:
   m_ObjectHideFlags: 0
@@ -16571,7 +17076,7 @@ MonoBehaviour:
   connections:
   - {fileID: 902076110}
   position: {x: 8, y: -1, z: 44}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1539254823
 Transform:
   m_ObjectHideFlags: 0
@@ -16622,7 +17127,7 @@ MonoBehaviour:
   - {fileID: 532616685}
   - {fileID: 1720391855}
   position: {x: -56, y: -1, z: 48}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1539960966
 Transform:
   m_ObjectHideFlags: 0
@@ -16671,7 +17176,7 @@ MonoBehaviour:
   - {fileID: 1720391855}
   - {fileID: 2721205}
   position: {x: -56, y: -1, z: 40}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1563075469
 Transform:
   m_ObjectHideFlags: 0
@@ -16722,7 +17227,7 @@ MonoBehaviour:
   - {fileID: 1841082483}
   - {fileID: 2060234214}
   position: {x: -3, y: -1, z: 73}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1564463357
 Transform:
   m_ObjectHideFlags: 0
@@ -16771,7 +17276,7 @@ MonoBehaviour:
   - {fileID: 1371463949}
   - {fileID: 2040498576}
   position: {x: -12, y: -1, z: 28}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1565408567
 Transform:
   m_ObjectHideFlags: 0
@@ -16823,7 +17328,7 @@ MonoBehaviour:
   - {fileID: 382309720}
   - {fileID: 1811875707}
   position: {x: -24, y: -1, z: 64}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1566160286
 Transform:
   m_ObjectHideFlags: 0
@@ -16873,7 +17378,7 @@ MonoBehaviour:
   - {fileID: 1887623782}
   - {fileID: 1164118221}
   position: {x: 36, y: -1, z: 116}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1572797477
 Transform:
   m_ObjectHideFlags: 0
@@ -16923,7 +17428,7 @@ MonoBehaviour:
   - {fileID: 447276519}
   - {fileID: 333374906}
   position: {x: 12, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1578938979
 Transform:
   m_ObjectHideFlags: 0
@@ -16972,7 +17477,7 @@ MonoBehaviour:
   - {fileID: 1955953268}
   - {fileID: 531019800}
   position: {x: -8, y: -1, z: 20}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1579112808
 Transform:
   m_ObjectHideFlags: 0
@@ -17021,7 +17526,7 @@ MonoBehaviour:
   - {fileID: 146270394}
   - {fileID: 2088350649}
   position: {x: -20, y: -1, z: 20}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1585000433
 Transform:
   m_ObjectHideFlags: 0
@@ -17073,7 +17578,7 @@ MonoBehaviour:
   - {fileID: 52889331}
   - {fileID: 887917872}
   position: {x: -32, y: -1, z: 84}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1593796883
 Transform:
   m_ObjectHideFlags: 0
@@ -17122,7 +17627,7 @@ MonoBehaviour:
   - {fileID: 1167300245}
   - {fileID: 536182041}
   position: {x: 0, y: -1, z: 32}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1595108458
 Transform:
   m_ObjectHideFlags: 0
@@ -17174,7 +17679,7 @@ MonoBehaviour:
   - {fileID: 399036701}
   - {fileID: 927260967}
   position: {x: -40, y: -1, z: 92}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1595518067
 Transform:
   m_ObjectHideFlags: 0
@@ -17224,7 +17729,7 @@ MonoBehaviour:
   - {fileID: 1040806832}
   - {fileID: 710713429}
   position: {x: -36, y: -1, z: 120}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1601033948
 Transform:
   m_ObjectHideFlags: 0
@@ -17275,7 +17780,7 @@ MonoBehaviour:
   - {fileID: 692453924}
   - {fileID: 1010657476}
   position: {x: 16, y: -1, z: 116}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1608510138
 Transform:
   m_ObjectHideFlags: 0
@@ -17327,7 +17832,7 @@ MonoBehaviour:
   - {fileID: 65904407}
   - {fileID: 1989376188}
   position: {x: 8, y: -1, z: 52}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1608675474
 Transform:
   m_ObjectHideFlags: 0
@@ -17379,7 +17884,7 @@ MonoBehaviour:
   - {fileID: 1680730481}
   - {fileID: 1757465278}
   position: {x: -8, y: -1, z: 88}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1609985728
 Transform:
   m_ObjectHideFlags: 0
@@ -17432,7 +17937,7 @@ MonoBehaviour:
   - {fileID: 1847407574}
   - {fileID: 482138526}
   position: {x: -36, y: -1, z: 72}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1616527723
 Transform:
   m_ObjectHideFlags: 0
@@ -17483,7 +17988,7 @@ MonoBehaviour:
   - {fileID: 101876497}
   - {fileID: 1979462243}
   position: {x: -16, y: -1, z: 116}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1620057306
 Transform:
   m_ObjectHideFlags: 0
@@ -17498,6 +18003,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 132211630}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1626996115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1626996116}
+  m_Layer: 0
+  m_Name: Goal (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1626996116
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626996115}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8, y: -1, z: 0.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 233344056}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1629924404
 GameObject:
@@ -17536,7 +18072,7 @@ MonoBehaviour:
   - {fileID: 399036701}
   - {fileID: 927260967}
   position: {x: -40, y: -1, z: 88}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1629924406
 Transform:
   m_ObjectHideFlags: 0
@@ -17586,7 +18122,7 @@ MonoBehaviour:
   - {fileID: 642028589}
   - {fileID: 1390765900}
   position: {x: 16, y: -1, z: 48}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1632244504
 Transform:
   m_ObjectHideFlags: 0
@@ -17635,7 +18171,7 @@ MonoBehaviour:
   - {fileID: 1768515962}
   - {fileID: 1057984096}
   position: {x: -28, y: -1, z: 16}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1634565364
 Transform:
   m_ObjectHideFlags: 0
@@ -17651,6 +18187,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 132211630}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1637540719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1637540720}
+  - component: {fileID: 1637540721}
+  m_Layer: 0
+  m_Name: Start (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1637540720
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637540719}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 16, y: -1, z: -23.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 233344056}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1637540721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637540719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec56661111efa843a369b4a51df161a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentColor: {r: 0.8590164, g: 0, b: 1, a: 1}
+  agentDefinition:
+    radius: 0.5
+    speed: 8
+    priority: 0
+  targetPositionObject: {fileID: 1376681026}
+  m_animationTime: -1
 --- !u!1 &1640945209
 GameObject:
   m_ObjectHideFlags: 0
@@ -17685,7 +18272,7 @@ MonoBehaviour:
   - {fileID: 1290033783}
   - {fileID: 1156375620}
   position: {x: 28, y: -1, z: 52}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1640945211
 Transform:
   m_ObjectHideFlags: 0
@@ -17735,7 +18322,7 @@ MonoBehaviour:
   - {fileID: 373612257}
   - {fileID: 2136928702}
   position: {x: -4, y: -1, z: 60}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1645133101
 Transform:
   m_ObjectHideFlags: 0
@@ -17787,7 +18374,7 @@ MonoBehaviour:
   - {fileID: 1376469023}
   - {fileID: 917433705}
   position: {x: 44, y: -1, z: 76}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1664017641
 Transform:
   m_ObjectHideFlags: 0
@@ -17837,7 +18424,7 @@ MonoBehaviour:
   - {fileID: 1317259742}
   - {fileID: 2101364214}
   position: {x: 25, y: -1, z: 101}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1665926057
 Transform:
   m_ObjectHideFlags: 0
@@ -17886,7 +18473,7 @@ MonoBehaviour:
   - {fileID: 927260967}
   - {fileID: 1900019402}
   position: {x: -44, y: -1, z: 84}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1666690296
 Transform:
   m_ObjectHideFlags: 0
@@ -17935,7 +18522,7 @@ MonoBehaviour:
   - {fileID: 1226648047}
   - {fileID: 200352634}
   position: {x: -32, y: -1, z: 40}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1669040050
 Transform:
   m_ObjectHideFlags: 0
@@ -17984,7 +18571,7 @@ MonoBehaviour:
   - {fileID: 1377679256}
   - {fileID: 1608675473}
   position: {x: 8, y: -1, z: 56}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1677646431
 Transform:
   m_ObjectHideFlags: 0
@@ -18064,7 +18651,7 @@ MonoBehaviour:
   - {fileID: 1991206369}
   - {fileID: 542413433}
   position: {x: -20, y: -1, z: 48}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1678148491
 Transform:
   m_ObjectHideFlags: 0
@@ -18115,7 +18702,7 @@ MonoBehaviour:
   - {fileID: 1609985727}
   - {fileID: 1757465278}
   position: {x: -4, y: -1, z: 84}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1680730482
 Transform:
   m_ObjectHideFlags: 0
@@ -18167,7 +18754,7 @@ MonoBehaviour:
   - {fileID: 219834563}
   - {fileID: 247870316}
   position: {x: 37.5, y: -1, z: 101.5}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1687114659
 Transform:
   m_ObjectHideFlags: 0
@@ -18216,7 +18803,7 @@ MonoBehaviour:
   - {fileID: 2102834695}
   - {fileID: 71556837}
   position: {x: 28, y: -1, z: 88}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1688004169
 Transform:
   m_ObjectHideFlags: 0
@@ -18268,7 +18855,7 @@ MonoBehaviour:
   - {fileID: 795995525}
   - {fileID: 147251698}
   position: {x: 0, y: -1, z: 88}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1688854598
 Transform:
   m_ObjectHideFlags: 0
@@ -18317,7 +18904,7 @@ MonoBehaviour:
   - {fileID: 1042049091}
   - {fileID: 966822897}
   position: {x: -48, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1691089452
 Transform:
   m_ObjectHideFlags: 0
@@ -18367,7 +18954,7 @@ MonoBehaviour:
   - {fileID: 750843140}
   - {fileID: 1593796882}
   position: {x: -28, y: -1, z: 84}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1700066476
 Transform:
   m_ObjectHideFlags: 0
@@ -18418,7 +19005,7 @@ MonoBehaviour:
   - {fileID: 1206486569}
   - {fileID: 237529815}
   position: {x: 4, y: -1, z: 104}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1701312177
 Transform:
   m_ObjectHideFlags: 0
@@ -18467,7 +19054,7 @@ MonoBehaviour:
   - {fileID: 1426088386}
   - {fileID: 270025498}
   position: {x: -20, y: -1, z: 120}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1710874304
 Transform:
   m_ObjectHideFlags: 0
@@ -18516,7 +19103,7 @@ MonoBehaviour:
   - {fileID: 625956751}
   - {fileID: 1039781021}
   position: {x: -12, y: -1, z: 104}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1717304054
 Transform:
   m_ObjectHideFlags: 0
@@ -18565,7 +19152,7 @@ MonoBehaviour:
   - {fileID: 1539960965}
   - {fileID: 1563075468}
   position: {x: -56, y: -1, z: 44}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1720391856
 Transform:
   m_ObjectHideFlags: 0
@@ -18614,7 +19201,7 @@ MonoBehaviour:
   - {fileID: 927797944}
   - {fileID: 1063366428}
   position: {x: 48, y: -1, z: 44}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1723696259
 Transform:
   m_ObjectHideFlags: 0
@@ -18667,7 +19254,7 @@ MonoBehaviour:
   - {fileID: 900489511}
   - {fileID: 1277555144}
   position: {x: 4, y: -1, z: 116}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1739626098
 Transform:
   m_ObjectHideFlags: 0
@@ -18720,7 +19307,7 @@ MonoBehaviour:
   - {fileID: 1329449749}
   - {fileID: 434483073}
   position: {x: -4, y: -1, z: 116}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1751400318
 Transform:
   m_ObjectHideFlags: 0
@@ -18769,7 +19356,7 @@ MonoBehaviour:
   - {fileID: 1156375620}
   - {fileID: 953708553}
   position: {x: 32, y: -1, z: 48}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1756713090
 Transform:
   m_ObjectHideFlags: 0
@@ -18819,7 +19406,7 @@ MonoBehaviour:
   - {fileID: 147251698}
   - {fileID: 1680730481}
   position: {x: -8, y: -1, z: 84}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1757465279
 Transform:
   m_ObjectHideFlags: 0
@@ -18870,7 +19457,7 @@ MonoBehaviour:
   - {fileID: 1797687456}
   - {fileID: 735125227}
   position: {x: -48, y: -1, z: 68}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1763707559
 Transform:
   m_ObjectHideFlags: 0
@@ -18920,7 +19507,7 @@ MonoBehaviour:
   - {fileID: 381102368}
   - {fileID: 1634565363}
   position: {x: -24, y: -1, z: 16}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1768515963
 Transform:
   m_ObjectHideFlags: 0
@@ -18972,7 +19559,7 @@ MonoBehaviour:
   - {fileID: 1156375620}
   - {fileID: 1640945210}
   position: {x: 28, y: -1, z: 56}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1771646804
 Transform:
   m_ObjectHideFlags: 0
@@ -19020,7 +19607,7 @@ MonoBehaviour:
   connections:
   - {fileID: 1307342890}
   position: {x: 0, y: -1, z: 8}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1771886615
 Transform:
   m_ObjectHideFlags: 0
@@ -19070,7 +19657,7 @@ MonoBehaviour:
   - {fileID: 733208468}
   - {fileID: 1384920197}
   position: {x: 8, y: -1, z: 28}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1773669482
 Transform:
   m_ObjectHideFlags: 0
@@ -19119,7 +19706,7 @@ MonoBehaviour:
   - {fileID: 1578938978}
   - {fileID: 703798052}
   position: {x: 12, y: -1, z: 40}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1781866372
 Transform:
   m_ObjectHideFlags: 0
@@ -19172,7 +19759,7 @@ MonoBehaviour:
   - {fileID: 1317973403}
   - {fileID: 50546835}
   position: {x: -28, y: -1, z: 72}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1782745758
 Transform:
   m_ObjectHideFlags: 0
@@ -19222,7 +19809,7 @@ MonoBehaviour:
   - {fileID: 200129090}
   - {fileID: 1763707558}
   position: {x: -44, y: -1, z: 68}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1797687457
 Transform:
   m_ObjectHideFlags: 0
@@ -19275,7 +19862,7 @@ MonoBehaviour:
   - {fileID: 396259919}
   - {fileID: 702253396}
   position: {x: -28, y: -1, z: 60}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1811875708
 Transform:
   m_ObjectHideFlags: 0
@@ -19322,6 +19909,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 852837015}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1840730653
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1840730654}
+  - component: {fileID: 1840730655}
+  m_Layer: 0
+  m_Name: Start (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1840730654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840730653}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1, z: -23.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 233344056}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1840730655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840730653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec56661111efa843a369b4a51df161a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentColor: {r: 0, g: 1, b: 0.9905014, a: 1}
+  agentDefinition:
+    radius: 0.5
+    speed: 8
+    priority: 0
+  targetPositionObject: {fileID: 1266290974}
+  m_animationTime: -1
 --- !u!1 &1841082482
 GameObject:
   m_ObjectHideFlags: 0
@@ -19356,7 +19994,7 @@ MonoBehaviour:
   - {fileID: 1564463356}
   - {fileID: 2060234214}
   position: {x: -8, y: -1, z: 76}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1841082484
 Transform:
   m_ObjectHideFlags: 0
@@ -19408,7 +20046,7 @@ MonoBehaviour:
   - {fileID: 875455545}
   - {fileID: 482138526}
   position: {x: -40, y: -1, z: 72}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1847407575
 Transform:
   m_ObjectHideFlags: 0
@@ -19457,7 +20095,7 @@ MonoBehaviour:
   - {fileID: 703503129}
   - {fileID: 1042049091}
   position: {x: -44, y: -1, z: 44}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1849352539
 Transform:
   m_ObjectHideFlags: 0
@@ -19509,7 +20147,7 @@ MonoBehaviour:
   - {fileID: 1878785745}
   - {fileID: 2063521478}
   position: {x: 52, y: -1, z: 60}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1850384154
 Transform:
   m_ObjectHideFlags: 0
@@ -19561,7 +20199,7 @@ MonoBehaviour:
   - {fileID: 465093189}
   - {fileID: 1240342960}
   position: {x: -36, y: -1, z: 64}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1855141878
 Transform:
   m_ObjectHideFlags: 0
@@ -19611,7 +20249,7 @@ MonoBehaviour:
   - {fileID: 361176248}
   - {fileID: 1687114658}
   position: {x: 40, y: -1, z: 104}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1860412102
 Transform:
   m_ObjectHideFlags: 0
@@ -19627,6 +20265,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 132211630}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1862913462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1862913463}
+  - component: {fileID: 1862913464}
+  m_Layer: 0
+  m_Name: Start (0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1862913463
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862913462}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8, y: -1, z: 0.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 233344056}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1862913464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862913462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec56661111efa843a369b4a51df161a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentColor: {r: 0.09142852, g: 1, b: 0, a: 1}
+  agentDefinition:
+    radius: 0.5
+    speed: 8
+    priority: 0
+  targetPositionObject: {fileID: 33003560}
+  m_animationTime: -1
 --- !u!1 &1864374480
 GameObject:
   m_ObjectHideFlags: 0
@@ -19664,7 +20353,7 @@ MonoBehaviour:
   - {fileID: 1928618606}
   - {fileID: 750843140}
   position: {x: -28, y: -1, z: 92}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1864374482
 Transform:
   m_ObjectHideFlags: 0
@@ -19715,7 +20404,7 @@ MonoBehaviour:
   - {fileID: 2129103496}
   - {fileID: 348688850}
   position: {x: -50.25, y: -1, z: 61.75}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1866099520
 Transform:
   m_ObjectHideFlags: 0
@@ -19767,7 +20456,7 @@ MonoBehaviour:
   - {fileID: 821233954}
   - {fileID: 1847407574}
   position: {x: -36, y: -1, z: 76}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1866569289
 Transform:
   m_ObjectHideFlags: 0
@@ -19818,7 +20507,7 @@ MonoBehaviour:
   - {fileID: 761156489}
   - {fileID: 1688854597}
   position: {x: 4, y: -1, z: 92}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1866785463
 Transform:
   m_ObjectHideFlags: 0
@@ -19869,7 +20558,7 @@ MonoBehaviour:
   - {fileID: 1966191588}
   - {fileID: 2063521478}
   position: {x: 48, y: -1, z: 60}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1878785746
 Transform:
   m_ObjectHideFlags: 0
@@ -19918,7 +20607,7 @@ MonoBehaviour:
   - {fileID: 2039003886}
   - {fileID: 1503790415}
   position: {x: 12, y: -1, z: 104}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1880531639
 Transform:
   m_ObjectHideFlags: 0
@@ -19970,7 +20659,7 @@ MonoBehaviour:
   - {fileID: 940900814}
   - {fileID: 1976827963}
   position: {x: 52, y: -1, z: 76}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1881373416
 Transform:
   m_ObjectHideFlags: 0
@@ -20021,7 +20710,7 @@ MonoBehaviour:
   - {fileID: 237529815}
   - {fileID: 1039781021}
   position: {x: -4, y: -1, z: 104}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1883924123
 Transform:
   m_ObjectHideFlags: 0
@@ -20089,6 +20778,7 @@ MonoBehaviour:
   agents:
   - {fileID: 1045017949}
   - {fileID: 268277116}
+  agentColors: []
   acceptableRadius: 20
   agentCount: 10
   runSequential: 0
@@ -20127,7 +20817,7 @@ MonoBehaviour:
   - {fileID: 1164118221}
   - {fileID: 427619885}
   position: {x: 32, y: -1, z: 120}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1887623783
 Transform:
   m_ObjectHideFlags: 0
@@ -20175,7 +20865,7 @@ MonoBehaviour:
   connections:
   - {fileID: 1632244503}
   position: {x: 16, y: -1, z: 44}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1890156850
 Transform:
   m_ObjectHideFlags: 0
@@ -20224,7 +20914,7 @@ MonoBehaviour:
   - {fileID: 447304330}
   - {fileID: 1518077907}
   position: {x: 24, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1891349274
 Transform:
   m_ObjectHideFlags: 0
@@ -20274,7 +20964,7 @@ MonoBehaviour:
   - {fileID: 325593636}
   - {fileID: 2096589969}
   position: {x: -55, y: -1, z: 77}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1895327145
 Transform:
   m_ObjectHideFlags: 0
@@ -20325,7 +21015,7 @@ MonoBehaviour:
   - {fileID: 10236724}
   - {fileID: 1040806832}
   position: {x: -28, y: -1, z: 120}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1897409084
 Transform:
   m_ObjectHideFlags: 0
@@ -20374,7 +21064,7 @@ MonoBehaviour:
   - {fileID: 111452686}
   - {fileID: 153099476}
   position: {x: 16, y: -1, z: 28}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1899723465
 Transform:
   m_ObjectHideFlags: 0
@@ -20424,7 +21114,7 @@ MonoBehaviour:
   - {fileID: 548307396}
   - {fileID: 686347161}
   position: {x: -44, y: -1, z: 80}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1900019403
 Transform:
   m_ObjectHideFlags: 0
@@ -20473,7 +21163,7 @@ MonoBehaviour:
   - {fileID: 725605124}
   - {fileID: 955011897}
   position: {x: -4, y: -1, z: 40}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1905271708
 Transform:
   m_ObjectHideFlags: 0
@@ -20522,7 +21212,7 @@ MonoBehaviour:
   - {fileID: 810615810}
   - {fileID: 957475621}
   position: {x: 32, y: -1, z: 68}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1909816016
 Transform:
   m_ObjectHideFlags: 0
@@ -20572,7 +21262,7 @@ MonoBehaviour:
   - {fileID: 250706474}
   - {fileID: 1317259742}
   position: {x: 20, y: -1, z: 108}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1910629903
 Transform:
   m_ObjectHideFlags: 0
@@ -20621,7 +21311,7 @@ MonoBehaviour:
   - {fileID: 1275070796}
   - {fileID: 1045777296}
   position: {x: -24, y: -1, z: 28}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1914685120
 Transform:
   m_ObjectHideFlags: 0
@@ -20673,7 +21363,7 @@ MonoBehaviour:
   - {fileID: 1811875707}
   - {fileID: 396259919}
   position: {x: -24, y: -1, z: 60}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1923188049
 Transform:
   m_ObjectHideFlags: 0
@@ -20728,7 +21418,7 @@ MonoBehaviour:
   - {fileID: 246028319}
   - {fileID: 52889331}
   position: {x: -32, y: -1, z: 92}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1928618607
 Transform:
   m_ObjectHideFlags: 0
@@ -20780,7 +21470,7 @@ MonoBehaviour:
   - {fileID: 927260967}
   - {fileID: 559319057}
   position: {x: -48, y: -1, z: 92}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1931110095
 Transform:
   m_ObjectHideFlags: 0
@@ -20828,7 +21518,7 @@ MonoBehaviour:
   connections:
   - {fileID: 559319057}
   position: {x: -56, y: -1, z: 92}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1939046964
 Transform:
   m_ObjectHideFlags: 0
@@ -20881,7 +21571,7 @@ MonoBehaviour:
   - {fileID: 1609985727}
   - {fileID: 1370564450}
   position: {x: -8, y: -1, z: 92}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1939748470
 Transform:
   m_ObjectHideFlags: 0
@@ -20930,7 +21620,7 @@ MonoBehaviour:
   - {fileID: 1528985458}
   - {fileID: 481650978}
   position: {x: -52, y: -1, z: 96}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1943595673
 Transform:
   m_ObjectHideFlags: 0
@@ -20979,7 +21669,7 @@ MonoBehaviour:
   - {fileID: 1137747577}
   - {fileID: 1579112807}
   position: {x: -8, y: -1, z: 24}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1955953269
 Transform:
   m_ObjectHideFlags: 0
@@ -21083,7 +21773,7 @@ MonoBehaviour:
   - {fileID: 2063521478}
   - {fileID: 1297034149}
   position: {x: 52, y: -1, z: 56}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1966191589
 Transform:
   m_ObjectHideFlags: 0
@@ -21183,7 +21873,7 @@ MonoBehaviour:
   - {fileID: 29828837}
   - {fileID: 1231113356}
   position: {x: 4, y: -1, z: 24}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1971352261
 Transform:
   m_ObjectHideFlags: 0
@@ -21236,7 +21926,7 @@ MonoBehaviour:
   - {fileID: 1664017640}
   - {fileID: 1376469023}
   position: {x: 48, y: -1, z: 72}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1976827964
 Transform:
   m_ObjectHideFlags: 0
@@ -21285,7 +21975,7 @@ MonoBehaviour:
   - {fileID: 431477870}
   - {fileID: 1266645897}
   position: {x: -36, y: -1, z: 108}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1978799513
 Transform:
   m_ObjectHideFlags: 0
@@ -21337,7 +22027,7 @@ MonoBehaviour:
   - {fileID: 625956751}
   - {fileID: 353899966}
   position: {x: -16, y: -1, z: 112}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1979462244
 Transform:
   m_ObjectHideFlags: 0
@@ -21386,7 +22076,7 @@ MonoBehaviour:
   - {fileID: 1148926985}
   - {fileID: 500378842}
   position: {x: 48, y: -1, z: 32}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1984977645
 Transform:
   m_ObjectHideFlags: 0
@@ -21439,7 +22129,7 @@ MonoBehaviour:
   - {fileID: 753869637}
   - {fileID: 804087756}
   position: {x: 4, y: -1, z: 48}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1989376189
 Transform:
   m_ObjectHideFlags: 0
@@ -21488,7 +22178,7 @@ MonoBehaviour:
   - {fileID: 614751995}
   - {fileID: 1678148490}
   position: {x: -16, y: -1, z: 48}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1991206370
 Transform:
   m_ObjectHideFlags: 0
@@ -21540,7 +22230,7 @@ MonoBehaviour:
   - {fileID: 720902155}
   - {fileID: 1014277368}
   position: {x: 32, y: -1, z: 108}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &1996509427
 Transform:
   m_ObjectHideFlags: 0
@@ -21589,7 +22279,7 @@ MonoBehaviour:
   - {fileID: 2138476196}
   - {fileID: 284622380}
   position: {x: 32, y: -1, z: 24}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2018329841
 Transform:
   m_ObjectHideFlags: 0
@@ -21638,7 +22328,7 @@ MonoBehaviour:
   - {fileID: 378170737}
   - {fileID: 516524996}
   position: {x: -52, y: -1, z: 88}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2022704619
 Transform:
   m_ObjectHideFlags: 0
@@ -21687,7 +22377,7 @@ MonoBehaviour:
   - {fileID: 482777811}
   - {fileID: 1240395245}
   position: {x: -48, y: -1, z: 104}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2038262386
 Transform:
   m_ObjectHideFlags: 0
@@ -21740,7 +22430,7 @@ MonoBehaviour:
   - {fileID: 2127469221}
   - {fileID: 1503790415}
   position: {x: 12, y: -1, z: 108}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2039003887
 Transform:
   m_ObjectHideFlags: 0
@@ -21791,7 +22481,7 @@ MonoBehaviour:
   - {fileID: 1288679941}
   - {fileID: 720902155}
   position: {x: 32, y: -1, z: 112}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2039508503
 Transform:
   m_ObjectHideFlags: 0
@@ -21841,7 +22531,7 @@ MonoBehaviour:
   - {fileID: 2102621505}
   - {fileID: 1565408566}
   position: {x: -8, y: -1, z: 28}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2040498577
 Transform:
   m_ObjectHideFlags: 0
@@ -21890,7 +22580,7 @@ MonoBehaviour:
   - {fileID: 1976827963}
   - {fileID: 46196303}
   position: {x: 48, y: -1, z: 68}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2048320352
 Transform:
   m_ObjectHideFlags: 0
@@ -21942,7 +22632,7 @@ MonoBehaviour:
   - {fileID: 1782745757}
   - {fileID: 1317973403}
   position: {x: -24, y: -1, z: 72}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2049386271
 Transform:
   m_ObjectHideFlags: 0
@@ -21993,7 +22683,7 @@ MonoBehaviour:
   - {fileID: 85031156}
   - {fileID: 801422633}
   position: {x: 0, y: -1, z: 100}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2058448184
 Transform:
   m_ObjectHideFlags: 0
@@ -22043,6 +22733,7 @@ MonoBehaviour:
   - {fileID: 2142913543}
   - {fileID: 2145938007}
   - {fileID: 1961729525}
+  agentColors: []
   acceptableRadius: 20
   agentCount: 10
   runSequential: 0
@@ -22102,7 +22793,7 @@ MonoBehaviour:
   - {fileID: 1564463356}
   - {fileID: 70334404}
   position: {x: -8, y: -1, z: 72}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2060234215
 Transform:
   m_ObjectHideFlags: 0
@@ -22153,7 +22844,7 @@ MonoBehaviour:
   - {fileID: 1349818700}
   - {fileID: 322974952}
   position: {x: 8, y: -1, z: 64}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2062717826
 Transform:
   m_ObjectHideFlags: 0
@@ -22205,7 +22896,7 @@ MonoBehaviour:
   - {fileID: 1297034149}
   - {fileID: 597090891}
   position: {x: 48, y: -1, z: 56}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2063521479
 Transform:
   m_ObjectHideFlags: 0
@@ -22254,7 +22945,7 @@ MonoBehaviour:
   - {fileID: 1258842873}
   - {fileID: 957475621}
   position: {x: 28, y: -1, z: 72}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2075318462
 Transform:
   m_ObjectHideFlags: 0
@@ -22304,7 +22995,7 @@ MonoBehaviour:
   - {fileID: 448912362}
   - {fileID: 2139481123}
   position: {x: -24, y: -1, z: 36}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2076606066
 Transform:
   m_ObjectHideFlags: 0
@@ -22353,7 +23044,7 @@ MonoBehaviour:
   - {fileID: 263472378}
   - {fileID: 2138476196}
   position: {x: 40, y: -1, z: 24}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2076692712
 Transform:
   m_ObjectHideFlags: 0
@@ -22404,7 +23095,7 @@ MonoBehaviour:
   - {fileID: 1768515962}
   - {fileID: 477330717}
   position: {x: -24, y: -1, z: 20}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2088350650
 Transform:
   m_ObjectHideFlags: 0
@@ -22455,7 +23146,7 @@ MonoBehaviour:
   - {fileID: 735125227}
   - {fileID: 463664189}
   position: {x: -55, y: -1, z: 73}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2096589970
 Transform:
   m_ObjectHideFlags: 0
@@ -22505,7 +23196,7 @@ MonoBehaviour:
   - {fileID: 250706474}
   - {fileID: 1665926056}
   position: {x: 20, y: -1, z: 100}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2101364215
 Transform:
   m_ObjectHideFlags: 0
@@ -22554,7 +23245,7 @@ MonoBehaviour:
   - {fileID: 204100291}
   - {fileID: 2040498576}
   position: {x: -4, y: -1, z: 28}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2102621506
 Transform:
   m_ObjectHideFlags: 0
@@ -22603,7 +23294,7 @@ MonoBehaviour:
   - {fileID: 601134791}
   - {fileID: 1688004168}
   position: {x: 28, y: -1, z: 92}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2102834696
 Transform:
   m_ObjectHideFlags: 0
@@ -22652,7 +23343,7 @@ MonoBehaviour:
   - {fileID: 2039003886}
   - {fileID: 852222385}
   position: {x: 9, y: -1, z: 109}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2127469222
 Transform:
   m_ObjectHideFlags: 0
@@ -22706,7 +23397,7 @@ MonoBehaviour:
   - {fileID: 395244735}
   - {fileID: 1866099519}
   position: {x: -47, y: -1, z: 61}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2129103497
 Transform:
   m_ObjectHideFlags: 0
@@ -22755,7 +23446,7 @@ MonoBehaviour:
   - {fileID: 373612257}
   - {fileID: 1645133100}
   position: {x: -8, y: -1, z: 60}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2136928703
 Transform:
   m_ObjectHideFlags: 0
@@ -22804,7 +23495,7 @@ MonoBehaviour:
   - {fileID: 2076692711}
   - {fileID: 2018329840}
   position: {x: 36, y: -1, z: 24}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2138476197
 Transform:
   m_ObjectHideFlags: 0
@@ -22853,7 +23544,7 @@ MonoBehaviour:
   - {fileID: 2076606065}
   - {fileID: 1408260528}
   position: {x: -24, y: -1, z: 32}
-  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 0.2509804}
 --- !u!4 &2139481124
 Transform:
   m_ObjectHideFlags: 0
@@ -22983,3 +23674,5 @@ SceneRoots:
   - {fileID: 852837015}
   - {fileID: 2060086978}
   - {fileID: 576126406}
+  - {fileID: 242092879}
+  - {fileID: 233344056}
