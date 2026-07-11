@@ -24,10 +24,10 @@ public class NavNode : MonoBehaviour, IGraphNode, INodePositionProperty
     public void OnDrawGizmos()
     {
         Gizmos.color = labelColor;
-        Gizmos.DrawSphere(transform.position, 0.25f);
+        Gizmos.DrawSphere(transform.position, 0.2f);
         if(connections != null)
             foreach (var connection in connections)
-                Debug.DrawLine(transform.position, connection.transform.position);
+                Gizmos.DrawLine(transform.position, connection.transform.position);
     }
 
     public IEnumerable<IGraphNode> GetAdjacents(float costBound)

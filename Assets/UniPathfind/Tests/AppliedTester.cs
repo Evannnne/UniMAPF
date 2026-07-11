@@ -9,6 +9,7 @@ public class AppliedTester : MonoBehaviour
 {
     public GameObject baseAgent;
     public List<SimpleTestAgent> agents;
+    public Color[] agentColors;
 
     public float acceptableRadius = 20;
     public int agentCount = 10;
@@ -58,6 +59,9 @@ public class AppliedTester : MonoBehaviour
     [Sirenix.OdinInspector.Button]
     public void GenerateAgents()
     {
+        foreach (Transform child in transform) DestroyImmediate(child.gameObject);
+        agents.Clear();
+
         HashSet<NavNode> occupied = new HashSet<NavNode>();
 
         for(int i = 0; i < agentCount; i++)
@@ -90,7 +94,7 @@ public class AppliedTester : MonoBehaviour
                     target.transform.position = dst.position;
                     target.name = $"Goal {i}";
                     inst.GetComponent<SimpleTestAgent>().targetPositionObject = target;
-                    inst.GetComponent<SimpleTestAgent>().agentColor = new Color(Random.Range(0, 1f), Random.Range(0, 1f), Random.Range(0, 1f)).NormalizeRGB();
+                    inst.GetComponent<SimpleTestAgent>().agentColor = agentColors[agents.Count];
                     inst.SetActive(true);
 
                     agents.Add(inst.GetComponent<SimpleTestAgent>());
